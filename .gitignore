@@ -1,0 +1,4 @@
+models/
+models/gemma-1.1-7b-it-GGUF/gemma-1.1-7b-it-Q5_K_M.gguf
+models/smollm/smollm-360m-instruct-add-basics-q8_0.gguf
+models/llama-3-instruct-bellman-8b-swe-preview/llama-3-instruct-bellman-8b-swe_q6_k.gguf
