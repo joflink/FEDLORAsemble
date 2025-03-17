@@ -40,4 +40,4 @@ test_prompts = [
 for prompt in test_prompts:
     print(f"\n📝 **Prompt:** {prompt}")
     response = generate_response(prompt)
-    print(f"🤖 **LoRA Response:** {respons
+    print(f"🤖 **LoRA Response:** {response}")

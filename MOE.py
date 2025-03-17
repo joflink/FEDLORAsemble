@@ -497,8 +497,8 @@ if __name__ == "__main__":
     # Example queries
     questions = [
         #    "Explain this in swedish :Summary: This paper introduces Mixture of Expert Clusters (MoEC), a novel approach to improve the performance and scalability of Mixture of Experts (MoE) models. MoE models, while efficient in scaling model capacity, suffer from overfitting and sparse data allocation as the number of experts increases, especially with limited data. MoEC addresses these issues by introducing variance-based constraints on the routing stage to encourage the formation of expert clusters. Experts within a cluster are designed to be similar, sharing similar input tokens, while experts across clusters are more diverse. Furthermore, MoEC incorporates a cluster-level expert dropout strategy. This strategy randomly drops entire clusters of experts during training, ensuring that tokens are consistently routed to suitable experts even with the dropout. Experiments on machine translation and natural language understanding tasks demonstrate that MoEC improves performance and raises the performance upper bound for scaling up experts, mitigating overfitting and sparse data allocation problems observed in standard MoE models. The results show that MoEC successfully addresses the limitations of scaling up MoE models by improving the diversity of data allocation among experts and preventing overfitting.?",
-        "Is it problematic that Donald Trump is letting Elon Musk do whatever he wants?",
-        "What is stan lee knwon for?",
+        "Who is donald duck?",
+        "what size is the moon?",
         "What is the mma record of bas rutten??"
     ]
 
