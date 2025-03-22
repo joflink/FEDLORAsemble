@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "t1"
+version = "1.0.0"
+description = ""
+license = "Apache-2.0"
+dependencies = [
+    "flwr[simulation]>=1.11.0",
+    "flwr-datasets>=0.3.0",
+    "trl==0.13.0",
+    "bitsandbytes==0.45.0",
+    "scipy==1.13.0",
+    "peft==0.14.0",
+    "transformers==4.47.1",
+    "sentencepiece==0.2.0",
+    "omegaconf==2.3.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
+
+[tool.flwr.app]
+publisher = "joafli"
+
+[tool.flwr.app.components]
+serverapp = "training.server_app:app"
+clientapp = "training.client_app:app"
+
+[tool.flwr.app.config.static]
+dataset.name = "datasets/alpaca-gpt4"  # Bevarar dataset från tidigare versioner
+#dataset.name = "datasets/python-code-dataset-500k "  # Bevarar dataset från tidigare versioner
+
+
+
+
+
+[tool.flwr.federations]
+default = "local-simulation"
+
+
+[tool.flwr.app.config]
+#model.name = "models/SmolLM2-1.7B-Instruct"
+model.name = "models/qwens/Qwen2.5-0.5B-Instruct"
+model.quantization = 4
+model.gradient-checkpointing = true
+model.lora.peft-lora-r = 32
+model.lora.peft-lora-alpha = 64
+train.save-every-round = 5
+train.learning-rate-max = 5e-5
+train.learning-rate-min = 1e-6
+train.seq_length = 512
+train.training-arguments.output-dir = ""
+train.training-arguments.learning-rate = ""
+train.training-arguments.per-device-train-batch-size = 16 #maybe 8
+train.training-arguments.gradient-accumulation-steps = 1
+train.training-arguments.logging-steps = 10
+train.training-arguments.num-train-epochs = 3
+train.training-arguments.max-steps = 20
+train.training-arguments.save-steps = 1000
+train.training-arguments.save-total-limit = 10
+train.training-arguments.gradient-checkpointing = true
+train.training-arguments.lr-scheduler-type = "constant"
+train.training-arguments.report_to="none"
+   
+strategy.fraction-fit = 0.4
+strategy.fraction-evaluate = 0.0
+num-server-rounds =400
+
+[tool.flwr.federations.local-simulation]
+options.num-supernodes = 1
+options.backend.client-resources.num-cpus = 2
+options.backend.client-resources.num-gpus = 1.0
