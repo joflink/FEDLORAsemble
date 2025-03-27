@@ -76,7 +76,6 @@ def server_fn(context: Context):
     # Define strategy
     strategy = FlowerTuneLlm(
         
-        server_address="10.132.136.143:8080",
         fraction_fit=cfg.strategy.fraction_fit,
         fraction_evaluate=cfg.strategy.fraction_evaluate,
         on_fit_config_fn=get_on_fit_config(save_path),
@@ -88,8 +87,19 @@ def server_fn(context: Context):
     )
     config = ServerConfig(num_rounds=num_rounds)
 
-    return ServerAppComponents(strategy=strategy, config=config)
+    # return ServerAppComponents(strategy=strategy, config=config)
+    return [strategy, config]
 
 
-# Flower ServerApp
-app = ServerApp(server_fn=server_fn)
+# # Flower ServerApp
+# app = ServerApp(server_fn=server_fn)
+import flwr as fl
+# Start Flower server
+
+def main():
+    test=server_fn()
+    fl.server.start_server(
+        server_address="10.132.136.143:8080",
+        config=test[1],
+        strategy=test[0],
+    )
