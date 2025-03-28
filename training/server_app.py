@@ -65,11 +65,12 @@ def server_fn(context: Context):
     os.makedirs(save_path, exist_ok=True)
 
     # Read from config
-    num_rounds = context.run_config["num-server-rounds"]
-    cfg = DictConfig(replace_keys(unflatten_dict(context.run_config)))
+    num_rounds = context["num-server-rounds"]
+    cfg = DictConfig(replace_keys(unflatten_dict(context)))
 
     # Get initial model weights
     init_model = get_model(cfg.model)
+    print(cfg.model.name)
     init_model_parameters = get_parameters(init_model)
     init_model_parameters = ndarrays_to_parameters(init_model_parameters)
 
@@ -91,15 +92,48 @@ def server_fn(context: Context):
     return [strategy, config]
 
 
-# # Flower ServerApp
-# app = ServerApp(server_fn=server_fn)
 import flwr as fl
-# Start Flower server
+context = {
+        "model": {
+            "name": "models/qwens/Qwen2.5-0.5B-Instruct",
+            "quantization": 4,
+            "gradient-checkpointing": True,
+            "lora": {
+                "peft-lora-r": 32,
+                "peft-lora-alpha": 64
+            }
+        },
+        "train": {
+            "save-every-round": 5,
+            "learning-rate-max": 5e-5,
+            "learning-rate-min": 1e-6,
+            "seq_length": 512,
+            "training-arguments": {
+                "output-dir": "",
+                "learning-rate": "",
+                "per-device-train-batch-size": 16,
+                "gradient-accumulation-steps": 1,
+                "logging-steps": 10,
+                "num-train-epochs": 3,
+                "max-steps": 20,
+                "save-steps": 1000,
+                "save-total-limit": 10,
+                "gradient-checkpointing": True,
+                "lr-scheduler-type": "constant",
+                "report_to": "none"
+            }
+        },
+        "strategy": {
+            "fraction-fit": 0.4,
+            "fraction-evaluate": 0.0
+        },
+        "num-server-rounds": 400
+}
 
-def main():
-    test=server_fn()
-    fl.server.start_server(
-        server_address="10.132.136.143:8080",
-        config=test[1],
-        strategy=test[0],
-    )
+# Initialize server components
+test = server_fn(context)
+fl.server.start_server(
+    server_address="10.132.136.143:8080",
+    config=test[1],
+    strategy=test[0],
+)
