@@ -6,10 +6,10 @@ from flwr.common import Context, ndarrays_to_parameters
 from flwr.common.config import unflatten_dict
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 from omegaconf import DictConfig
-from t1.client_app import get_parameters, set_parameters
-from t1.models import get_model
-from t1.dataset import replace_keys
-from t1.strategy import FlowerTuneLlm
+from client_app import get_parameters, set_parameters
+from AImodels import get_model
+from dataset import replace_keys
+from strategy import FlowerTuneLlm
 
 
 # Get function that will be executed by the strategy's evaluate() method
@@ -63,10 +63,12 @@ def server_fn(context: Context):
     folder_name = current_time.strftime("%Y-%m-%d_%H-%M-%S")
     save_path = os.path.join(os.getcwd(), f"results/{folder_name}")
     os.makedirs(save_path, exist_ok=True)
+    print(context["model"])
 
     # Read from config
     num_rounds = context["num-server-rounds"]
     cfg = DictConfig(replace_keys(unflatten_dict(context)))
+    print(cfg.model)
 
     # Get initial model weights
     init_model = get_model(cfg.model)
@@ -91,11 +93,12 @@ def server_fn(context: Context):
     # return ServerAppComponents(strategy=strategy, config=config)
     return [strategy, config]
 
+print("hello")
 
 import flwr as fl
 context = {
         "model": {
-            "name": "models/qwens/Qwen2.5-0.5B-Instruct",
+            "name": "../models/Qwen2.5-0.5B-Instruct",
             "quantization": 4,
             "gradient-checkpointing": True,
             "lora": {
@@ -127,13 +130,22 @@ context = {
             "fraction-fit": 0.4,
             "fraction-evaluate": 0.0
         },
-        "num-server-rounds": 400
+        "num-server-rounds": 400,
+        "dataset": "../datasets/alpaca-gpt4"  
 }
 
-# Initialize server components
-test = server_fn(context)
-fl.server.start_server(
-    server_address="10.132.136.143:8080",
-    config=test[1],
-    strategy=test[0],
-)
+
+
+def main():
+    # Initialize server components
+    print("hello")
+    test = server_fn(context)
+    fl.server.start_server(
+        server_address="10.132.136.143:8080",
+        config=test[1],
+        strategy=test[0],
+    )
+
+if __name__ == "__main__":
+    print("hello333")
+    main()
