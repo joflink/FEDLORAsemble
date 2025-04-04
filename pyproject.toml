@@ -38,7 +38,7 @@ dataset.name = "datasets/alpaca-gpt4"  # Bevarar dataset från tidigare versione
 
 
 [tool.flwr.federations]
-default = "local-simulation"
+default = ""
 
 
 [tool.flwr.app.config]

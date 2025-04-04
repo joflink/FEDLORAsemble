@@ -6,10 +6,10 @@ from flwr.common import Context, ndarrays_to_parameters
 from flwr.common.config import unflatten_dict
 from flwr.server import ServerApp, ServerAppComponents, ServerConfig
 from omegaconf import DictConfig
-from t1.client_app import get_parameters, set_parameters
-from t1.models import get_model
-from t1.dataset import replace_keys
-from t1.strategy import FlowerTuneLlm
+from client_app import get_parameters, set_parameters
+from AImodels import get_model
+from dataset import replace_keys
+from strategy import FlowerTuneLlm
 
 
 # Get function that will be executed by the strategy's evaluate() method
@@ -63,20 +63,22 @@ def server_fn(context: Context):
     folder_name = current_time.strftime("%Y-%m-%d_%H-%M-%S")
     save_path = os.path.join(os.getcwd(), f"results/{folder_name}")
     os.makedirs(save_path, exist_ok=True)
+    print(context["model"])
 
     # Read from config
-    num_rounds = context.run_config["num-server-rounds"]
-    cfg = DictConfig(replace_keys(unflatten_dict(context.run_config)))
+    num_rounds = context["num-server-rounds"]
+    cfg = DictConfig(replace_keys(unflatten_dict(context)))
+    print(cfg.model)
 
     # Get initial model weights
     init_model = get_model(cfg.model)
+    print(cfg.model.name)
     init_model_parameters = get_parameters(init_model)
     init_model_parameters = ndarrays_to_parameters(init_model_parameters)
 
     # Define strategy
     strategy = FlowerTuneLlm(
         
-        server_address="10.132.136.143:8080",
         fraction_fit=cfg.strategy.fraction_fit,
         fraction_evaluate=cfg.strategy.fraction_evaluate,
         on_fit_config_fn=get_on_fit_config(save_path),
@@ -88,8 +90,62 @@ def server_fn(context: Context):
     )
     config = ServerConfig(num_rounds=num_rounds)
 
-    return ServerAppComponents(strategy=strategy, config=config)
+    # return ServerAppComponents(strategy=strategy, config=config)
+    return [strategy, config]
+
+print("hello")
+
+import flwr as fl
+context = {
+        "model": {
+            "name": "../models/Qwen2.5-0.5B-Instruct",
+            "quantization": 4,
+            "gradient-checkpointing": True,
+            "lora": {
+                "peft-lora-r": 32,
+                "peft-lora-alpha": 64
+            }
+        },
+        "train": {
+            "save-every-round": 5,
+            "learning-rate-max": 5e-5,
+            "learning-rate-min": 1e-6,
+            "seq_length": 512,
+            "training-arguments": {
+                "output-dir": "",
+                "learning-rate": "",
+                "per-device-train-batch-size": 16,
+                "gradient-accumulation-steps": 1,
+                "logging-steps": 10,
+                "num-train-epochs": 3,
+                "max-steps": 20,
+                "save-steps": 1000,
+                "save-total-limit": 10,
+                "gradient-checkpointing": True,
+                "lr-scheduler-type": "constant",
+                "report_to": "none"
+            }
+        },
+        "strategy": {
+            "fraction-fit": 0.4,
+            "fraction-evaluate": 0.0
+        },
+        "num-server-rounds": 400,
+        "dataset": "../datasets/alpaca-gpt4"  
+}
 
 
-# Flower ServerApp
-app = ServerApp(server_fn=server_fn)
+
+def main():
+    # Initialize server components
+    print("hello")
+    test = server_fn(context)
+    fl.server.start_server(
+        server_address="10.132.136.143:8080",
+        config=test[1],
+        strategy=test[0],
+    )
+
+if __name__ == "__main__":
+    print("hello333")
+    main()

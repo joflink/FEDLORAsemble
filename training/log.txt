@@ -1,0 +1,7 @@
+2025-03-31 14:34:25,335 - INFO - Logging system initialized successfully.
+2025-03-31 14:34:25,335 - INFO - Logging system is working correctly.
+2025-03-31 14:34:25,336 - INFO - hello
+2025-03-31 14:34:25,336 - INFO - hello333
+2025-03-31 14:34:25,336 - INFO - hello
+2025-03-31 14:34:25,337 - INFO - {'name': '../models/Qwen2.5-0.5B-Instruct', 'quantization': 4, 'gradient-checkpointing': True, 'lora': {'peft-lora-r': 32, 'peft-lora-alpha': 64}}
+2025-03-31 14:34:25,340 - INFO - {'name': '../models/Qwen2.5-0.5B-Instruct', 'quantization': 4, 'gradient_checkpointing': True, 'lora': {'peft_lora_r': 32, 'peft_lora_alpha': 64}}
