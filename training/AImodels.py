@@ -18,7 +18,7 @@ def cosine_annealing(
     """Implement cosine annealing learning rate schedule."""
     cos_inner = math.pi * current_round / total_round
     return lrate_min + 0.5 * (lrate_max - lrate_min) * (1 + math.cos(cos_inner))
-
+import omegaconf
 
 def get_model(model_cfg: DictConfig):
     """Load model with appropriate quantization config and other optimizations.
@@ -43,20 +43,18 @@ def get_model(model_cfg: DictConfig):
     model = prepare_model_for_kbit_training(
         model, use_gradient_checkpointing=model_cfg.gradient_checkpointing
     )
-
+    target_modules = model_cfg.lora.target_modules
+    if isinstance(target_modules, omegaconf.ListConfig):
+        target_modules = list(target_modules)
     peft_config = LoraConfig(
-        use_dora=True,
-        #init_lora_weights="olora",
-        r=model_cfg.lora.peft_lora_r,
-        lora_alpha=model_cfg.lora.peft_lora_alpha,
-        target_modules=["q_proj", "v_proj","lora_magnitude_vector",],  # Kontrollera vilka moduler som används i din modell
-       # target_modules=["q_proj", "v_proj"],  # Kontrollera vilka moduler som används i din modell
-        lora_dropout=0.1,
-        task_type="CAUSAL_LM",
-    )
-
+    use_dora=True,
+    r = model_cfg.lora.peft_lora_r,
+    lora_alpha = model_cfg.lora.peft_lora_alpha,
+    target_modules = target_modules,
+    lora_dropout = model_cfg.lora.lora_dropout,
+    task_type = "CAUSAL_LM",
+)
     if model_cfg.gradient_checkpointing:
         model.config.use_cache = False
-    print(model)
-    print(peft_config)
+
     return get_peft_model(model, peft_config)

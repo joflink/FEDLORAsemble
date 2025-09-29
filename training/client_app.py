@@ -2,6 +2,7 @@
 import os
 import argparse
 import torch
+from datetime import datetime
 import toml  # If using Python <3.11, install and use `import toml`
 from omegaconf import OmegaConf
 from collections import OrderedDict
@@ -22,26 +23,121 @@ from dataset import (
     load_data,
     replace_keys,
 )
+
+# Exempel: fyra olika model_cfg, en per vardag (mån–tors):
+MODEL_CFG_MON = {
+    "name": "../models/DeepSeek-R1-Distill-Qwen1.5B",
+    "quantization": 4,
+    "gradient-checkpointing": True,
+"lora": {
+    "peft_lora_r": 32,
+    "peft_lora_alpha": 128,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "target_modules": ["q_proj", "v_proj", "k_proj", "o_proj"]
+}
+
+}
+
+MODEL_CFG_TUE = {
+    "name":"../models/Qwen2.5-0.5B-Instruct",
+    "quantization": 4,
+    "gradient-checkpointing": True,
+"lora": {
+    "peft_lora_r": 32,
+    "peft_lora_alpha": 128,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "target_modules": ["q_proj", "v_proj", "k_proj", "o_proj"]
+}
+
+}
+MODEL_CFG_WED = {
+        "name": "../models/Qwen2.5-0.5B-Instruct-Math",
+        "quantization": 4,
+        "gradient-checkpointing": True,
+    "lora": {
+        "peft_lora_r": 32,
+        "peft_lora_alpha": 128,
+        "lora_dropout": 0.05,
+        "bias": "none",
+        "target_modules": ["q_proj", "v_proj", "k_proj", "o_proj"]
+    }
+
+}
+
+MODEL_CFG_THU = {
+    "name": "../models/Qwen2.5-0.5B-Instruct",
+    "quantization": 4,
+    "gradient-checkpointing": True,
+  "lora": {
+  "peft_type": "LORA",
+  "peft_lora_r": 32,
+  "peft_lora_alpha": 64,
+  "lora_dropout": 0.05,
+  "target_modules": ["q_proj", "v_proj"],
+  "bias": "none",
+  "task_type": "CAUSAL_LM"
+}
+}
+
+def select_model_and_dataset():
+    day_of_week = datetime.now().weekday()  # 0=mån,1=tis,2=ons,3=tor,4=fre,5=lör,6=sön
+    if day_of_week == 10:
+        # Måndag => Expert 0
+        return {
+            "model_cfg": MODEL_CFG_MON,
+            "dataset_path": "../datasets/alpaca-gpt4",
+        }
+    elif day_of_week == 1:
+        # Tisdag => Expert 1
+        return {
+            "model_cfg": MODEL_CFG_TUE,
+            "dataset_path": "../datasets/alpaca-gpt4",
+        }
+    elif day_of_week == 2:
+        # Onsdag => Expert 2 (t.ex. math)
+        return {
+            "model_cfg": MODEL_CFG_WED,
+            "dataset_path": "../datasets/math_dataset",
+        }
+    elif day_of_week == 0:
+        # Torsdag => Expert 3 (t.ex. code)
+        return {
+            "model_cfg": MODEL_CFG_THU,
+            "dataset_path": "../datasets/Pythondataset",
+        }
+    else:
+        # Fredag-lör-sön => default
+        return {
+            "model_cfg": MODEL_CFG_MON,
+            "dataset_path": "../datasets/alpaca-gpt4",
+        }
+
 context = {
         "model": {
-            "name": "../models/Qwen2.5-0.5B-Instruct",
+            "name": "../models/Qwen2.5-7B-Instruct",
             "quantization": 4,
             "gradient-checkpointing": True,
             "lora": {
-                "peft-lora-r": 32,
-                "peft-lora-alpha": 64
+                "peft_lora_r": 32,
+                "peft_lora_alpha": 64
             }
         },
         "train": {
             "save-every-round": 5,
             "learning-rate-max": 5e-5,
             "learning-rate-min": 1e-6,
-            "seq_length": 512,
+            "seq_length": 330,
+            
+            "learning_rate_max": 5e-4,
+            "learning_rate_min": 1e-6,
             "training-arguments": {
+                
                 "output-dir": "",
                 "learning-rate": "",
-                "per-device-train-batch-size": 16,
-                "gradient-accumulation-steps": 1,
+                "per-device-train-batch-size": 4,
+                "gradient-accumulation-steps": 8,
                 "logging-steps": 10,
                 "num-train-epochs": 3,
                 "max-steps": 20,
@@ -53,11 +149,11 @@ context = {
             }
         },
         "strategy": {
-            "fraction-fit": 0.4,
+            "fraction-fit": 1,
             "fraction-evaluate": 0.0
         },
         "num-server-rounds": 400,
-        "dataset": "../datasets/alpaca-gpt4"  
+        "dataset": "../datasets/reasoning"  
 }
 
 def load_flower_config():
@@ -103,7 +199,12 @@ class FlowerClient(NumPyClient):
         """Initiera klient. Om inga parametrar anges laddas allt från pyproject.toml."""
         if all(v is None for v in [model_cfg, train_cfg, trainset]):
             #cfg = context # load_flower_config()
-            
+                        #selection = select_model_and_dataset()
+            selection = {
+            "model_cfg": MODEL_CFG_THU,
+            "dataset_path": "../datasets/indian",
+        }
+            context["model"] = selection["model_cfg"]
             cfg = DictConfig(replace_keys(unflatten_dict(context)))
             model_cfg = cfg.model
             train_cfg = cfg.train
@@ -111,7 +212,7 @@ class FlowerClient(NumPyClient):
             num_partitions = int(os.environ.get("NUM_PARTITIONS", 10))
             num_rounds = cfg.get("num-server-rounds", 3)
 
-            trainset = load_data(partition_id, num_partitions, cfg.dataset)
+            trainset = load_data(partition_id, num_partitions, selection["dataset_path"])
             tokenizer, data_collator, formatting_prompts_func = get_tokenizer_and_data_collator_and_propt_formatting(
                 model_cfg.name
             )
@@ -125,6 +226,7 @@ class FlowerClient(NumPyClient):
         self.num_rounds = num_rounds
         self.trainset = trainset
         self.model = get_model(model_cfg)
+
 
     
     def fit(self, parameters, config: Dict) -> Tuple:
@@ -159,7 +261,7 @@ class FlowerClient(NumPyClient):
 
         # Returnera uppdaterade parametrar
         return (
-            self.get_parameters(config),
+            get_parameters(self.model),   # RÄTT metod
             len(self.trainset),
             {"train_loss": results.training_loss},
         )
@@ -188,9 +290,20 @@ def main():
     fl.client.start_client(
         server_address=args.server_address,
         client=client,
+       # grpc_max_message_length=512*1024*1024,
+        grpc_max_message_length=2_000_000_000,   # 2 GB
+    max_wait_time=120000
     )
 
+
+import grpc
+GRPC_OPTIONS = [
+    ("grpc.max_send_message_length", 1024 * 1024 * 512),     # 512 MB
+    ("grpc.max_receive_message_length", 1024 * 1024 * 512),
+]
 # C:/Users/joafli/Documents/AI/text-generation-webui/installer_files/env/python.exe  client_app.py --partition-id 0 --server-address 127.0.0.1:8080
+
+
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,5 @@
 
+# extern 2
 
 https://github.com/TheBlewish/Web-LLM-Assistant-Llamacpp-Ollama
 
@@ -7,6 +8,14 @@ moe.add_model(index=1, model_type="hf", model_path="models/SmolLM2-1.7B-Instruct
 moe.add_model(index=2, model_type="hf", model_path="models/DeepSeek-R1-Distill-Qwen-1.5B/")
 moe.add_model(index=3, model_type="hf", model_path="models/qwens/Qwen2.5-0.5B-Instruct/")
 moe.add_model(index=4, model_type="hf", model_path="models/qwens/Qwen2.5-Coder-0.5B-Instruct/")
+
+
+python3 run_eval.py \
+  --path openai_humaneval --config openai_humaneval \
+  --metric pass@1 \
+  --q prompt --a canonical_solution \
+  --fewshot 0
+
 
 
 🔹 **Expert 0 - DeepSeek-R1-Distill Qwen 1.5B**  
