@@ -1,0 +1,31 @@
+version: "3.8"
+
+services:
+  tgi:
+    image: ghcr.io/huggingface/text-generation-inference:latest
+    container_name: fedlora
+    ports:
+      - "8080:80"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    volumes:
+      - ./models/Qwen2.5-7B-Instruct:/data/model
+     # - ./loras/0.5B:/data/loras                # EN mapp med ENBART LoRAs
+    environment:
+      # ── Modell ─────────────────────────
+      MODEL_ID: /data/model
+      # ── Lokala LoRAs (mappen skannas automatiskt) ──
+      #LORA_DIR: /data/loras
+      # ── Token‑gränser ──────────────────
+      MAX_INPUT_TOKENS: 1024  
+      MAX_TOTAL_TOKENS: 1536 
+      MAX_BATCH_PREFILL_TOKENS: 1024  
+      # ── Kvantisering (8‑bit) ───────────
+      QUANTIZE: bitsandbytes
+      LOAD_IN_8BIT: "true"
+      TRUST_REMOTE_CODE: "true"    # ← Här lägger du till

@@ -1,0 +1,29 @@
+2025-03-28 07:46:37,392 - INFO - Logging system initialized successfully.
+2025-03-28 07:46:37,393 - INFO - Logging system is working correctly.
+2025-03-28 07:46:37,398 - ERROR - Traceback (most recent call last):
+2025-03-28 07:46:37,398 - ERROR - File "C:\Users\Joakim\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\utils\hub.py", line 403, in cached_file
+2025-03-28 07:46:37,399 - ERROR - resolved_file = hf_hub_download(
+2025-03-28 07:46:37,399 - ERROR - File "C:\Users\Joakim\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\utils\_validators.py", line 106, in _inner_fn
+2025-03-28 07:46:37,399 - ERROR - validate_repo_id(arg_value)
+2025-03-28 07:46:37,399 - ERROR - File "C:\Users\Joakim\AppData\Local\Programs\Python\Python310\lib\site-packages\huggingface_hub\utils\_validators.py", line 154, in validate_repo_id
+2025-03-28 07:46:37,400 - ERROR - raise HFValidationError(
+2025-03-28 07:46:37,400 - ERROR - huggingface_hub.errors
+2025-03-28 07:46:37,400 - ERROR - .
+2025-03-28 07:46:37,400 - ERROR - HFValidationError
+2025-03-28 07:46:37,400 - ERROR - :
+2025-03-28 07:46:37,400 - ERROR - Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'models/qwens/Qwen2.5-0.5B-Instruct'. Use `repo_type` argument if needed.
+2025-03-28 07:46:37,400 - ERROR - The above exception was the direct cause of the following exception:
+2025-03-28 07:46:37,400 - ERROR - Traceback (most recent call last):
+2025-03-28 07:46:37,400 - ERROR - File "c:\Users\Joakim\Desktop\pycode\fedmoe2\Fedmoe\training\server_app.py", line 134, in <module>
+2025-03-28 07:46:37,400 - ERROR - test = server_fn(context)
+2025-03-28 07:46:37,400 - ERROR - File "c:\Users\Joakim\Desktop\pycode\fedmoe2\Fedmoe\training\server_app.py", line 72, in server_fn
+2025-03-28 07:46:37,401 - ERROR - init_model = get_model(cfg.model)
+2025-03-28 07:46:37,401 - ERROR - File "c:\Users\Joakim\Desktop\pycode\fedmoe2\Fedmoe\training\AImodels.py", line 35, in get_model
+2025-03-28 07:46:37,401 - ERROR - model = AutoModelForCausalLM.from_pretrained(
+2025-03-28 07:46:37,401 - ERROR - File "C:\Users\Joakim\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\models\auto\auto_factory.py", line 487, in from_pretrained
+2025-03-28 07:46:37,401 - ERROR - resolved_config_file = cached_file(
+2025-03-28 07:46:37,401 - ERROR - File "C:\Users\Joakim\AppData\Local\Programs\Python\Python310\lib\site-packages\transformers\utils\hub.py", line 469, in cached_file
+2025-03-28 07:46:37,402 - ERROR - raise EnvironmentError(
+2025-03-28 07:46:37,402 - ERROR - OSError
+2025-03-28 07:46:37,402 - ERROR - :
+2025-03-28 07:46:37,402 - ERROR - Incorrect path_or_model_id: 'models/qwens/Qwen2.5-0.5B-Instruct'. Please provide either the path to a local folder or the repo_id of a model on the Hub.

@@ -1,0 +1,1976 @@
+{"task_id": "HumanEval/0", "completion": "from typing import List"}
+{"task_id": "HumanEval/0", "completion": "```\nfrom typing import List"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "def has_close_elements(numbers: List[float], threshold: float) -> bool:\n    # Your code here\n    pass"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/0", "completion": "```python\ndef has_close_elements(numbers: List[float], threshold: float) -> bool:\n    for i in range(len(numbers)):\n        for j in range(i + 1, len(numbers)):\n            if abs(numbers[i] - numbers[j]) <= threshold:\n                return True"}
+{"task_id": "HumanEval/0", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import List\nimport re"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "from typing import List"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import List\nfrom typing import Tuple\nfrom typing import Optional"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import *\nfrom typing import List"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/1", "completion": "```py\nfrom typing import List"}
+{"task_id": "HumanEval/1", "completion": "```python\nreturn []"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import *\nfrom collections import deque"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/1", "completion": "```python\nfrom typing import *\nfrom typing import List"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/1", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "```python"}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "```python\ndef truncate_number(number: float) -> float:\n    \"\"\" Given a positive floating point number, it can be decomposed into\n    and integer part (largest integer smaller than given number) and decimals\n    (leftover part always smaller than 1)."}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/2", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "from typing import *\ndef below_zero(operations: List[int]) -> bool:\n    balance = 0\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n    return False\n```"}
+{"task_id": "HumanEval/3", "completion": "from typing import List"}
+{"task_id": "HumanEval/3", "completion": "```python\ndef below_zero(operations: List[int]) -> bool:\n    balance = 0\n    for op in operations:\n        balance += op\n        if balance < 0:\n            return True\n    return False"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "from typing import List"}
+{"task_id": "HumanEval/3", "completion": "from typing import List"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "pass"}
+{"task_id": "HumanEval/3", "completion": "from typing import List\ndef below_zero(operations: List[int]) -> bool:\n    balance = 0\n    for operation in operations:\n        balance += operation\n        if balance < 0:\n            return True\n    return False\n```"}
+{"task_id": "HumanEval/3", "completion": "```python\nfrom typing import List\nimport numpy"}
+{"task_id": "HumanEval/3", "completion": "```python\ndef below_zero(operations: List[int]) -> bool:\n    # Initialize balance to zero\n    balance = 0"}
+{"task_id": "HumanEval/3", "completion": "from typing import List"}
+{"task_id": "HumanEval/3", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/3", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/3", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/4", "completion": "def mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\" For a given list of input numbers, calculate Mean Absolute Deviation\n    around the mean of this dataset.\n    Mean Absolute Deviation is the average absolute difference between each\n    element and a centerpoint (mean in this case):\n    MAD = average | x - x_mean |\n    >>> mean_absolute_deviation([1.0, 2.0, 3.0, 4.0])\n    1.0\n    \"\"\"\n    mean = sum(numbers) / len(numbers)\n    max_diff = max(abs(num - mean) for num in numbers)\n    return max_diff / len(numbers) if max_diff != 0 else 0"}
+{"task_id": "HumanEval/4", "completion": "pass"}
+{"task_id": "HumanEval/4", "completion": "def mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\" Calculates the mean absolute deviation of the given list of numbers.\n    >>> mean_absolute_deviation([1.0, 2.0, 3.0, 4.0])\n    1.0\n    \"\"\"\n    return sum(abs(num - sum(numbers) / len(numbers))) / len(numbers)"}
+{"task_id": "HumanEval/4", "completion": "pass"}
+{"task_id": "HumanEval/4", "completion": "```\nimport math\nfrom typing import List"}
+{"task_id": "HumanEval/4", "completion": "```python\nimport math\nfrom typing import List\nfrom typing import Tuple"}
+{"task_id": "HumanEval/4", "completion": "from typing import List"}
+{"task_id": "HumanEval/4", "completion": "pass"}
+{"task_id": "HumanEval/4", "completion": "import math"}
+{"task_id": "HumanEval/4", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/4", "completion": "```python\nfrom typing import List\nfrom typing import Tuple\nfrom typing import Optional"}
+{"task_id": "HumanEval/4", "completion": "```python"}
+{"task_id": "HumanEval/4", "completion": "Here is a valid solution:\n```python\nfrom typing import List\nfrom statistics import mean"}
+{"task_id": "HumanEval/4", "completion": "```python\ndef mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\"\n    For a given list of input numbers, calculate Mean Absolute Deviation around the mean of this dataset.\n    Mean Absolute Deviation is the average absolute difference between each\n    element and a centerpoint (mean in this case):\n    MAD = average | x - x_mean |"}
+{"task_id": "HumanEval/4", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/4", "completion": "pass"}
+{"task_id": "HumanEval/4", "completion": "pass"}
+{"task_id": "HumanEval/4", "completion": "def mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\"\n    Calculates the Mean Absolute Deviation of a non-empty list of numbers."}
+{"task_id": "HumanEval/4", "completion": "```python\ndef mean_absolute_deviation(numbers: List[float]) -> float:\n    \"\"\"\n    For a given list of input numbers, calculate Mean Absolute Deviation\n    around the mean of this dataset.\n    Mean Absolute Deviation is the average absolute difference between each\n    element and a centerpoint (mean in this case):"}
+{"task_id": "HumanEval/4", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "```python\ndef intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\" Insert a number 'delimeter' between every two consecutive elements of input list `numbers`\n    >>> intersperse([], 4)\n    []\n    >>> intersperse([1, 2, 3], 4)\n    [1, 4, 2, 4, 3]"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "def intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\"\n    Insert a number 'delimeter' between every two consecutive elements of input list 'numbers'."}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "```python\ndef intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\" Insert a number 'delimeter' between every two consecutive elements of input list `numbers`\n    >>> intersperse([], 4)\n    []\n    >>> intersperse([1, 2, 3], 4)\n    [1, 4, 2, 4, 3]"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "The function body is missing, but the logic to insert a number `delimeter` between every two consecutive elements of the input list `numbers` should be provided. Return only the updated code body of the function."}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/5", "completion": "```python\ndef intersperse(numbers: List[int], delimeter: int) -> List[int]:\n    \"\"\"\n    Inserts a number 'delimeter' between every two consecutive elements of input list 'numbers'."}
+{"task_id": "HumanEval/5", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/6", "completion": "```python\ndef parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\"\n    Input to this function is a string represented multiple groups for nested parentheses separated by spaces.\n    For each of the group, output the deepest level of nesting of parentheses.\n    E.g. (()()) has maximum two levels of nesting while ((())) has three.\n    \"\"\"\n    def _helper(stack: List[int], depth: int) -> None:\n        if stack:\n            _helper(stack[::-1], depth + 1)\n            for i in range(len(stack) - depth):\n                if stack[i] == '(': \n                    stack[i] = ')'\n                else:\n                    stack[i] = '('\n            _helper(stack[::-1], depth + 1)"}
+{"task_id": "HumanEval/6", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "from typing import List"}
+{"task_id": "HumanEval/6", "completion": "from typing import *\ndef parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\"\n    :type paren_string: str\n    :rtype: List[int]\n    \"\"\"\n    # Your code here\n    pass\n ```python\nfrom typing import *\ndef parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\"\n    :type paren_string: str\n    :rtype: List[int]\n    \"\"\"\n    levels = []\n    current_level = 0\n    for char in paren_string:\n        if char == '(':\n            current_level += 1\n            levels.append(current_level)\n        elif char == ')':\n            current_level -= 1\n        if"}
+{"task_id": "HumanEval/6", "completion": "```python"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "def parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\" Input to this function is a string represented multiple groups for nested parentheses separated by spaces.\n    For each of the group, output the deepest level of nesting of parentheses.\n    E.g. (()()) has maximum two levels of nesting while ((())) has three."}
+{"task_id": "HumanEval/6", "completion": "```"}
+{"task_id": "HumanEval/6", "completion": "```python\nfrom typing import List\nfrom collections import deque"}
+{"task_id": "HumanEval/6", "completion": "```python\ndef parse_nested_parens(paren_string: str) -> List[int]:\n    \"\"\"\n    Input to this function is a string represented multiple groups for nested parentheses separated by spaces.\n    For each of the group, output the deepest level of nesting of parentheses.\n    E.g. (()()) has maximum two levels of nesting while ((())) has three."}
+{"task_id": "HumanEval/6", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/6", "completion": "```python\nfrom typing import List\nfrom typing import List"}
+{"task_id": "HumanEval/6", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "```python\nfrom typing import *\nfrom typing import List"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "from typing import List"}
+{"task_id": "HumanEval/7", "completion": "```python"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "```python"}
+{"task_id": "HumanEval/7", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "```\nfrom typing import List"}
+{"task_id": "HumanEval/7", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "```python\ndef filter_by_substring(strings: List[str], substring: str) -> List[str]:\n    \"\"\" Filter an input list of strings only for ones that contain given substring\n    >>> filter_by_substring([], 'a')\n    []\n    >>> filter_by_substring(['abc', 'bacd', 'cde', 'array'], 'a')\n    ['abc', 'bacd', 'array']"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "pass"}
+{"task_id": "HumanEval/7", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/7", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/8", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "pass"}
+{"task_id": "HumanEval/8", "completion": "```python\ndef sum_product(numbers: List[int]) -> Tuple[int, int]:\n    total = 0\n    product = 1"}
+{"task_id": "HumanEval/8", "completion": "```python\nnumbers: List[int]\nsum: int\nproduct: int"}
+{"task_id": "HumanEval/9", "completion": "def rolling_max(numbers: List[int]) -> List[int]:\n    \"\"\" \n    >>> rolling_max([1, 2, 3, 2, 3, 4, 2])\n    [1, 2, 3, 3, 3, 4, 4]\n    \"\"\"\n    # Your code here\nMy answer:\n```python\ndef rolling_max(numbers: List[int]) -> List[int]:\n    \"\"\"\n    >>> rolling_max([1, 2, 3, 2, 3, 4, 2])\n    [1, 2, 3, 3, 3, 4, 4]\n    \"\"\"\n    max_entire_list = []\n    current_max = -float('inf')"}
+{"task_id": "HumanEval/9", "completion": "```python\ndef rolling_max(numbers: List[int]) -> List[int]:\n    \"\"\"\n    From a given list of integers, generate a list of rolling maximum element found until given moment\n    in the sequence.\n    >>> rolling_max([1, 2, 3, 2, 3, 4, 2])\n    [1, 2, 3, 3, 3, 4, 4]\n    \"\"\"\n    max_num = numbers[0]\n    max_list = [max_num]\n    for num in numbers:\n        if num > max_num:\n            max_num = num\n            max_list.append(max_num)\n        else:\n            max_list.append(max_num)"}
+{"task_id": "HumanEval/9", "completion": "from typing import List, Tuple"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "from typing import List, Tuple"}
+{"task_id": "HumanEval/9", "completion": "def rolling_max(numbers: List[int]) -> List[int]:\n    return [max(numbers[:i+1]) for i in range(len(numbers))] We replace the given Python function header with the implemented code in the next line:"}
+{"task_id": "HumanEval/9", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "## Your code here."}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "```python\ndef rolling_max(numbers: List[int]) -> List[int]:\n    max_values = []\n    current_max = float('-inf')\n    \n    for elem in numbers:\n        if elem > current_max:\n            current_max = elem\n        max_values.append(current_max)"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/9", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "```python\ndef is_palindrome(string: str) -> bool:\n    \"\"\" Test if given string is a palindrome \"\"\"\n    return string == string[::-1]"}
+{"task_id": "HumanEval/10", "completion": "```python\ndef is_palindrome(string: str) -> bool:\n    \"\"\" Test if given string is a palindrome \"\"\"\n    return string == string[::-1]"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "```python\ndef make_palindrome(string: str) -> str:\n    \"\"\"\n    Find the shortest palindrome that begins with a supplied string."}
+{"task_id": "HumanEval/10", "completion": "```py\ndef is_palindrome(string: str) -> bool:\n    \"\"\" Test if given string is a palindrome \"\"\"\n    return string == string[::-1]"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "```py\ndef is_palindrome(string: str) -> bool:\n    return string == string[::-1]"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "```python\ndef is_palindrome(string: str) -> bool:\n    \"\"\" Test if given string is a palindrome \"\"\"\n    return string == string[::-1]"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "pass"}
+{"task_id": "HumanEval/10", "completion": "```python\ndef make_palindrome(string: str) -> str:\n    \"\"\" Find the shortest palindrome that begins with a supplied string.\n    Algorithm idea is simple:\n    - Find the longest postfix of supplied string that is a palindrome.\n    - Append to the end of the string reverse of a string prefix that comes before the palindromic suffix.\n    >>> make_palindrome('')\n    ''\n    >>> make_palindrome('cat')\n    'catac'\n    >>> make_palindrome('cata')\n    'catac'\n    \"\"\"\n    if not string:\n        return string"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "from typing import List\nfrom typing import Tuple"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "from typing import List"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "from typing import List"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/11", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "```python\nfrom typing import List, Optional"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "```python\nfrom typing import List, Optional"}
+{"task_id": "HumanEval/12", "completion": "```\nfrom typing import List, Optional"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\"\n    Out of list of strings, return the longest one. Return the first one in case of multiple\n    strings of the same length. Return None in case the input list is empty.\n    >>> longest([])"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\" Out of list of strings, return the longest one. Return the first one in case of multiple\n    strings of the same length. Return None in case the input list is empty.\n    >>> longest([])"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\"\n    Out of list of strings, return the longest one. Return the first one in case of multiple\n    strings of the same length. Return None in case the input list is empty.\n    >>> longest([])"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    if not strings:\n        return None"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    if not strings:\n        return None"}
+{"task_id": "HumanEval/12", "completion": "from typing import List, Optional"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\" Out of list of strings, return the longest one. Return the first one in case of multiple\n    strings of the same length. Return None in case the input list is empty.\n    >>> longest([])"}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/12", "completion": "```python\nfrom typing import List, Optional"}
+{"task_id": "HumanEval/12", "completion": "```python\ndef longest(strings: List[str]) -> Optional[str]:\n    \"\"\"\n    Return the longest string from the given list of strings."}
+{"task_id": "HumanEval/12", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "```python\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\" Return a greatest common divisor of two integers a and b"}
+{"task_id": "HumanEval/13", "completion": "```python\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\"\n    Return a greatest common divisor of two integers a and b\n    >>> greatest_common_divisor(3, 5)\n    1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n    if b == 0:\n        return a"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "```python"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "```python\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\"\n    Return a greatest common divisor of two integers a and b\n    >>> greatest_common_divisor(3, 5)\n    1\n    >>> greatest_common_divisor(25, 15)\n    5\n    \"\"\"\n    def __gcd(m: int, n: int) -> int:\n        if n == 0:\n            return m\n        return __gcd(n, m % n)"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "```python\ndef greatest_common_divisor(a: int, b: int) -> int:\n    \"\"\"\n    Return the greatest common divisor of two integers a and b."}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/13", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "from typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "```python\nimport re\nfrom typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "from typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "```python\n[]"}
+{"task_id": "HumanEval/14", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "from typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/14", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/14", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "```python"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "It is not possible to construct such a string! There are no spaces in the output. You could think of this as \"as long as it starts with 0\" but it's not meant to be. You could think of it as \"prepend a space at the beginning\" but that doesn't fix the output. You could think of it as \"append a space at the beginning\" but that doesn't fix the output either. You could think of it as \"prepend 0\" but now you don't have a sequence it has only a number."}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "```python\ndef string_sequence(n: int) -> str:\n    return '0' + ('1' * (n - 1)) + ' ' + ' '.join(map(str, range(1, n + 1)))"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/15", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "```python\n# ..."}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/16", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "from typing import List"}
+{"task_id": "HumanEval/17", "completion": "```python\ndef parse_music(music_string: str) -> List[int]:\n    \"\"\"\n    Input to this function is a string representing musical notes in a special ASCII format.\n    Your task is to parse this string and return list of integers corresponding to how many beats it represents."}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "from typing import *\ndef parse_music(music_string: str) -> List[int]:\n    \"\"\" Input to this function is a string representing musical notes in a special ASCII format.\n    Your task is to parse this string and return list of integers corresponding to how many beats does each\n    not last."}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "```python\ndef parse_music(music_string: str) -> List[int]:\n    \"\"\"\n    Input to this function is a string representing musical notes in a special ASCII format.\n    Your task is to parse this string and return list of integers corresponding to how many beats\n    does each not last."}
+{"task_id": "HumanEval/17", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/17", "completion": "def parse_music(music_string: str) -> List[int]:\n    \"\"\"Input to this function is a string representing musical notes in a special ASCII format.\n    Your task is to parse this string and return list of integers corresponding to how many beats does each\n    not last.\n    >>> parse_music('o o| .| o| o| .| .| .| .| o o')\n    [4, 2, 1, 2, 2, 1, 1, 1, 1, 4, 4]\n    \"\"\"\n    # Your code here\n    pass"}
+{"task_id": "HumanEval/17", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "```python\ndef parse_music(music_string: str) -> List[int]:\n    \"\"\" Parse a string representing musical notes in ASCII format and return a list of integers\n    representing the number of beats each note lasts. 'o' - whole note, lasts four beats\n    'o|' - half note, lasts two beats\n    '.|' - quarter note, lasts one beat \"\"\""}
+{"task_id": "HumanEval/17", "completion": "```python\ndef parse_music(music_string: str) -> List[int]:\n    notes = music_string.split()\n    note_counts = [0] * 8\n    for note in notes:\n        if note == 'o':\n            note_counts[0] += 1\n        elif note == 'o|':\n            note_counts[1] += 1\n        elif note == '.':\n            note_counts[2] += 1\n        elif note == 'o|':\n            note_counts[3] += 1\n        elif note == 'qu':\n            note_counts[4] += 1\n        elif note == '..':\n            note_counts[5] += 1\n        elif note == '.|':\n            note_counts[6] += 1\n        elif note == '..|':\n            note_counts[7] += 1"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/17", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/17", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/17", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "```python\ndef how_many_times(string: str, substring: str) -> int:\n    count = 0\n    for i in range(len(string)):\n        if string[i:i+len(substring)] == substring:\n            count += 1"}
+{"task_id": "HumanEval/18", "completion": "```python\ndef how_many_times(string: str, substring: str) -> int:\n    count = 0\n    overlap_count = 0"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "def how_many_times(string: str, substring: str) -> int:\n     count = 0\n     for i in range(len(string)):\n         if string[i] == substring[i]:\n             count += 1\n         elif substring[i] != substring[0]:\n             count += 1\n     return count"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "```python"}
+{"task_id": "HumanEval/18", "completion": "```python\ndef how_many_times(string: str, substring: str) -> int:\n    count = 0\n    start = 0"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/18", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "def sort_numbers(numbers: str) -> str:\n    numbers = numbers.split()\n    sorted_numbers = sorted(numbers)\n    return ' '.join(sorted_numbers)"}
+{"task_id": "HumanEval/19", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/19", "completion": "```python\ndef sort_numbers(numbers: str) -> str:\n    \"\"\"\n    Input is a space-delimited string of numberals from 'zero' to 'nine'.\n    Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.\n    Return the string with numbers sorted from smallest to largest.\n    >>> sort_numbers('three one five')\n    'one three five'\n    \"\"\"\n    # Split the string into individual numberals, convert to integers, sort, join back into string\n    return \"\".join(sorted([num for num in numbers.split() if num in \"zero one two three four five six seven eight nine\"]))"}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/19", "completion": "pass"}
+{"task_id": "HumanEval/19", "completion": "def sort_numbers(numbers: str) -> str:\n    \"\"\"Input is a space-delimited string of numbers from 'zero' to 'nine'.\n    Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.\n    Return the string with numbers sorted from smallest to largest\n    >>> sort_numbers('three one five')\n    'one three five'\n    >>> sort_numbers('nine nine seven eight')\n    'eight seven nine'\n    >>> sort_numbers('three nine one')\n    'one nine three'\n    >>> sort_numbers('eight seven')\n    'seven eight'\n    >>> sort_numbers('two two two')\n    'two two two'\n    \"\"\"\n    # Your code goes here"}
+{"task_id": "HumanEval/19", "completion": "def sort_numbers(numbers: str) -> str:\n    \"\"\"\n    Input is a space-delimited string of numberals from 'zero' to 'nine'.\n    Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.\n    Return the string with numbers sorted from smallest to largest."}
+{"task_id": "HumanEval/19", "completion": "from typing import List"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "*Explanation:* Replace `pass` with the code to solve the task.   \n*Tests:* Placeholder, do not fill in.   \n*Output:* Only the function body should be returned.   \n*Answer length:* Only the actual code should be returned.   \n*Example output:* `return (min(numbers), max(numbers))` `((1.0, 5.0), (1.0, 5.0))` \u2192 `return (1.0, 5.0)`"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "```\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "def find_closest_elements(numbers: List[float]) -> Tuple[float, float]:\n    \"\"\"\n    From a supplied list of numbers (of length at least two) select and return two that are the closest to each\n    other and return them in order (smaller number, larger number).\n    >>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.2])\n    (2.0, 2.2)\n    >>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.0])\n    (2.0, 2.0)\n    \"\"\"\n    # Write your solution here\n    pass\n```"}
+{"task_id": "HumanEval/20", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "from typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "pass"}
+{"task_id": "HumanEval/20", "completion": "```\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/20", "completion": "```python\nfrom typing import List, Tuple"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/21", "completion": "from typing import List"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "Question Mark. Answer withnostucture. Only the Python code obreation is required.\n```python"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "Note: This function takes a list of numbers and returns a new list with the numbers scaled by a linear transform. The input list must contain at least two elements to perform this transformation. The transformation is defined by dividing each number by the difference between the maximum and minimum values in the list, and then shifting it by the minimum value to the right. The transformation is applied to each element in the list, and the result is returned as a new list of numbers. ```"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/21", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "```python\nfrom typing import List, Any"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "```python\nfrom typing import List, Any"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "```python\nfrom typing import List, Any"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/22", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "End of answer.  \n \nEnd of answer.  \n```"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "```python\ndef strlen(string: str) -> int:\n    return len(string)"}
+{"task_id": "HumanEval/23", "completion": "```python"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "def strlen(string: str) -> int:\n    \"\"\" Return length of given string\n    >>> strlen('')\n    0\n    >>> strlen('abc')\n    3\n    \"\"\"\n    # Your code here\n    return len(string) if string else 0"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/23", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "```python\ndef largest_divisor(n: int) -> int:\n    # Your code here\n    return 71"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "```python"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "```python\nn = 15\nfor i in range(2, n):\n    if n % i == 0:\n        largest = i\n        break"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/24", "completion": "pass"}
+{"task_id": "HumanEval/25", "completion": "pass"}
+{"task_id": "HumanEval/25", "completion": "pass"}
+{"task_id": "HumanEval/25", "completion": "def factorize(n: int) -> List[int]: \n    factors = []\n    for i in range(2, n+1):\n        if n % i == 0:\n            factors.append(i)\n            while n % i == 0:\n                n = n // i\n    if n > 1:\n        factors.append(n)\n    return factors\nPass"}
+{"task_id": "HumanEval/25", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/25", "completion": "```"}
+{"task_id": "HumanEval/25", "completion": "from typing import List"}
+{"task_id": "HumanEval/25", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/25", "completion": "pass"}
+{"task_id": "HumanEval/25", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/25", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/25", "completion": "from typing import *\nn: int\nresult: List[int]"}
+{"task_id": "HumanEval/25", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/25", "completion": "pass"}
+{"task_id": "HumanEval/25", "completion": "from typing import List"}
+{"task_id": "HumanEval/25", "completion": "def factorize(n: int) -> List[int]:\n    factors = []\n    # YOUR CODE HERE\n    return factors"}
+{"task_id": "HumanEval/25", "completion": "from typing import *\nfrom typing import List"}
+{"task_id": "HumanEval/25", "completion": "```python\nfrom typing import List\nfrom math import factorize"}
+{"task_id": "HumanEval/25", "completion": "```python\ndef factorize(n: int) -> List[int]:\n    \"\"\"\n    Returns the prime factors of the given number in the order from smallest to largest.\n    Each of the factors should appear in the number of times corresponding to its multiplicity."}
+{"task_id": "HumanEval/25", "completion": "from typing import *\ndef factorize(n: int) -> List[int]:\n    \"\"\"Return list of prime factors of given integer in the order from smallest to largest. Each of the factors should\n    be listed number of times corresponding to how many times it appears in factorization.\n    Input number should be equal to the product of all factors\n    >>> factorize(8)\n    [2, 2, 2]\n    >>> factorize(25)\n    [5, 5]\n    >>> factorize(70)\n    [2, 5, 7]\n    \"\"\"\n    factors = []  # List to store the prime factors\n    divisor = 2  # Start checking if number is divisible by 2\n    while n > 1:\n        if n % divisor == 0:\n            factors.append(divisor)  # Store the divisor in the factors list\n            n //= divisor  # Process the divisor\n        else:\n            divisor += 1  # Move to the next potential divisor\n    return factors"}
+{"task_id": "HumanEval/25", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "```python\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\"\n    From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the same as in the input.\n    >>> remove_duplicates([1, 2, 3, 2, 4])\n    [1, 3, 4]\n    \"\"\"\n    return list(set(numbers))"}
+{"task_id": "HumanEval/26", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/26", "completion": "```python\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    seen = set()"}
+{"task_id": "HumanEval/26", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "Note: The following code must run successfully with the given Python function."}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "```python\ndef remove_duplicates(numbers: List[int]) -> List[int]:\n    \"\"\"\n    From a list of integers, remove all elements that occur more than once.\n    Keep order of elements left the same as in the input.\n    >>> remove_duplicates([1, 2, 3, 2, 4])\n    [1, 3, 4]\n    \"\"\"\n    return list(set(numbers))"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/26", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "```python\nimport string"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "pass"}
+{"task_id": "HumanEval/27", "completion": "```python\ndef flip_case(string: str) -> str:\n    return string.swapcase()"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "```python\ndef concatenate(strings: List[str]) -> str:\n    \"\"\"\n    Concatenate list of strings into a single string"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "from typing import List"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "from typing import List"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "```\nfrom typing import List"}
+{"task_id": "HumanEval/28", "completion": "```python\ndef concatenate(strings: List[str]) -> str:\n    \"\"\"\n    Concatenate a list of strings into a single string."}
+{"task_id": "HumanEval/28", "completion": "from typing import *\ndef concatenate(strings: List[str]) -> str:\n    \"\"\" Concatenate list of strings into a single string\n    >>> concatenate([])\n    ''\n    >>> concatenate(['a', 'b', 'c'])\n    'abc'\n    \"\"\"\n    # Your code here to concatenate the strings\n    # Return the concatenated string\n    pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "from typing import List"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/28", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "from typing import List"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "```\nfrom typing import List"}
+{"task_id": "HumanEval/29", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/29", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "```python"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "```python"}
+{"task_id": "HumanEval/30", "completion": "pass"}
+{"task_id": "HumanEval/30", "completion": "```python"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "```"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "```python"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "def is_prime(n):\n    \"\"\"Return true if a given number is prime, and false otherwise.\n    >>> is_prime(6)\n    False\n    >>> is_prime(101)\n    True\n    >>> is_prime(11)\n    True\n    >>> is_prime(13441)\n    True\n    >>> is_prime(61)\n    True\n    >>> is_prime(4)\n    False\n    >>> is_prime(1)\n    False\n    \"\"\"\n    # Add your code here"}
+{"task_id": "HumanEval/31", "completion": "```python\ndef is_prime(n):\n    \"\"\"\n    Return true if a given number is prime, and false otherwise.\n    >>> is_prime(6)\n    False\n    >>> is_prime(101)\n    True\n    >>> is_prime(11)\n    True\n    >>> is_prime(13441)\n    True\n    >>> is_prime(61)\n    True\n    >>> is_prime(4)\n    False\n    >>> is_prime(1)\n    False\n    \"\"\"\n    if n > 1:\n        # Check if n is even\n        if n % 2 == 0:\n            return False\n        # Check for factors from 3 to sqrt(n"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "```python"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/31", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "def find_zero(xs: list):\n    \"\"\"xs are coefficients of a polynomial.\n    find_zero find zero point of the polynomial.\n    find_zero returns only only zero point.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n    zero = 0\n    for i, coeff in enumerate(xs):\n        if zero == 0 and coeff == 0:\n            zero = xs[i]\n            continue\n        if zero == 0:\n            zero = coeff\n        zero = zero * x + coeff\n    return zero"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "```python\ndef find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find x such that poly(x) = 0.\n    find_zero returns only only zero point, even if there are many.\n    Moreover, find_zero only takes list xs having even number of coefficients\n    and largest non zero coefficient as it guarantees\n    a solution.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n    # First, find the largest non-zero coefficient\n    max_non_zero = max(xs)\n    # Then, start with the largest non-zero coefficient\n    for i in range(len(xs), -1, -1):\n        if xs[i] == max_non_zero:\n            xs.remove(max_non_zero)\n            xs.insert(0, max_non_zero)\n            break\n    # Then"}
+{"task_id": "HumanEval/32", "completion": "```python\ndef sum(xs):\n    return sum(xs)"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "import math"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "```python\nadd = lambda x, y: x + y\nsub = lambda x, y: x - y\nmul = lambda x, y: x * y\ndiv = lambda x, y: x // y\npow = lambda x, n: x ** n if n > 0 else None\nsqrt = lambda x: None if x < 0 else x ** 0.5\nabs = lambda x: None if x < 0 else x"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "def find_zero(xs: list):\n    \"\"\" xs are coefficients of a polynomial.\n    find_zero find zero point of a polynomial.\n    >>> round(find_zero([1, 2]), 2) # f(x) = 1 + 2x\n    -0.5\n    >>> round(find_zero([-6, 11, -6, 1]), 2) # (x - 1) * (x - 2) * (x - 3) = -6 + 11x - 6x^2 + x^3\n    1.0\n    \"\"\"\n    # Your code here\n    pass"}
+{"task_id": "HumanEval/32", "completion": "def poly(xs: list, x: float):\n    \"\"\"\n    Evaluates polynomial with coefficients xs at point x.\n    return xs[0] + xs[1] * x + xs[1] * x^2 + .... xs[n] * x^n\n    \"\"\"\n    return sum([coeff * math.pow(x, i) for i, coeff in enumerate(xs)])"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "```python\ndef find_zero(xs: list):\n    one = 1\n    two = 2\n    null = 0"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/32", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "def sort_third(l: list):\n     \"\"\"This function takes a list l and returns a list l' such that l' is identical to l in the indicies that are not divisible by three,\n     while its values at the indicies that are divisible by three are equal to the values of the corresponding indicies of l, but sorted.\n     >>> sort_third([1, 2, 3])\n     [1, 2, 3]\n     >>> sort_third([5, 6, 3, 4, 8, 9, 2])\n     [2, 6, 3, 4, 8, 9, 5]\n     \"\"\""}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "```python"}
+{"task_id": "HumanEval/33", "completion": "```py\nreturn [sorted(v, key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:] + sorted(v - v[0], key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:] if v[0] >= 0 else sorted(v, key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:] + sorted(v - v[0], key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:][::-1] if v[0] < 0 else sorted(v, key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:] + sorted(v - v[0], key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:] if v[0] >= 0 else sorted(v, key=lambda x: x if x % 3 == 0 else l.index(x), reverse=True)[1:] + sorted(v - v[0], key=lambda x: x if x % 3 == 0 else l"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "```python\ndef sort_third(l: list):\n    # Create a new list with sorted elements\n    sorted_l = sorted(l)\n    # Extract indices of elements divisible by 3\n    divisible_by_3 = [index for index in range(len(l)) if (index + 1) % 3 == 0]\n    # Create a new list with indices of elements divisible by 3 and sorted\n    sorted_l[divisible_by_3] = sorted(sorted_l[divisible_by_3])\n    return sorted_l"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/33", "completion": "```python"}
+{"task_id": "HumanEval/33", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "pass"}
+{"task_id": "HumanEval/34", "completion": "```python"}
+{"task_id": "HumanEval/35", "completion": "```python\ndef max_element(l: list):\n    \"\"\"Return maximum element in the list.\n    >>> max_element([1, 2, 3])\n    3\n    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\"\"\""}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "```python\ndef max_element(l: list):\n    \"\"\"Return maximum element in the list.\n    >>> max_element([1, 2, 3])\n    3\n    >>> max_element([5, 3, -5, 2, -3, 3, 9, 0, 123, 1, -10])\n    123\n    \"\"\"\n    return max(l)"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "```python"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/35", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "```python\ndef fizz_buzz(n: int):\n    count = 0"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "```python\ndef fizz_buzz(n: int):\n    \"\"\"\n    Return the number of times the digit 7 appears in integers less than n which are divisible by 11 or 13."}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "The code to solve the task is:"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "pass"}
+{"task_id": "HumanEval/36", "completion": "```python\ndef fizz_buzz(n: int):\n    digits = [str(i) for i in range(1, n)]\n    ones, twos = 0, 0"}
+{"task_id": "HumanEval/37", "completion": "```python"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "```python\ndef sort_even(l: list):\n    \"\"\"This function takes a list l and returns a list l' such that\n    l' is identical to l in the odd indicies, while its values at the even indicies are equal\n    to the values of the even indicies of l, but sorted.\n    >>> sort_even([1, 2, 3])\n    [1, 2, 3]\n    >>> sort_even([5, 6, 3, 4])\n    [3, 6, 5, 4]\n    \"\"\"\n    l_even = []"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "```python\ndef sort_even(l: list):\n    \"\"\"This function takes a list l and returns a list l' such that\n    l' is identical to l in the odd indicies, while its values at the even indicies are equal\n    to the values of the even indicies of l, but sorted.\n    >>> sort_even([1, 2, 3])\n    [1, 2, 3]\n    >>> sort_even([5, 6, 3, 4])\n    [3, 6, 5, 4]\n    \"\"\"\n    l_even = []\n    for i in range(len(l) // 2):\n        l_even.append(l[i])\n    l_even.extend(l[len(l) // 2:])"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/37", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "```python\n# This is your function body. No docstring, no tests, no comments, no Markdown fences.\ndef decode_cyclic(s: str):\n    \"\"\"\n    takes as input string encoded with encode_cyclic function. Returns decoded string.\n    \"\"\"\n    # Split string into groups of three characters.\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    # Cycle elements in each group, unless the group has fewer elements than 3.\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]\n    # Join the groups back together into a single string.\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "```python"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "```py\ndef encode_cyclic(s: str):\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "```python\ndef encode_cyclic(s: str):\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "def encode_cyclic(s: str):\n    \"\"\"\n    returns encoded string by cycling groups of three characters.\n    \"\"\"\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    return ''.join(groups)"}
+{"task_id": "HumanEval/38", "completion": "```py\ndef decode_cyclic(s: str):\n    \"\"\"\n    Takes as input string encoded with encode_cyclic function. Returns decoded string.\n    \"\"\"\n    # split string to groups. Each of length 3.\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    # cycle elements in each group. Unless group has fewer elements than 3.\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "```python\nimport string"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "```python\ndef encode_cyclic(s: str):\n    # split string to groups. Each of length 3.\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    # cycle elements in each group. Unless group has fewer elements than 3.\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "```python"}
+{"task_id": "HumanEval/38", "completion": "```python\ndef encode_cyclic(s: str):\n    \"\"\"\n    returns encoded string by cycling groups of three characters.\n    \"\"\"\n    # split string to groups. Each of length 3.\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    # cycle elements in each group. Unless group has fewer elements than 3.\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "```python\ndef encode_cyclic(s: str):\n    \"\"\"\n    returns encoded string by cycling groups of three characters.\n    \"\"\"\n    # split string to groups. Each of length 3.\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    # cycle elements in each group. Unless group has fewer elements than 3.\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "```python\ndef encode_cyclic(s: str):\n    \"\"\"\n    returns encoded string by cycling groups of three characters.\n    \"\"\"\n    groups = [s[(3 * i):min((3 * i + 3), len(s))] for i in range((len(s) + 2) // 3)]\n    groups = [(group[1:] + group[0]) if len(group) == 3 else group for group in groups]\n    return \"\".join(groups)"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/38", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "```py\ndef prime_fib(n: int):\n    def is_prime(n):\n        if n < 2:\n            return False\n        for i in range(2, int(n ** 0.5) + 1):\n            if n % i == 0:\n                return False\n        return True"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "```python"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "```python\ndef prime_fib(n: int):\n    def is_prime(num: int) -> bool:\n        if num <= 1:\n            return False\n        if num == 2:\n            return True\n        for i in range(2, int(num ** 0.5) + 1):\n            if num % i == 0:\n                return False\n        return True"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "```python\ndef prime_fib(n: int):\n    def is_prime(num):\n        if num <= 1:\n            return False\n        for i in range(2, int(num ** 0.5) + 1):\n            if num % i == 0:\n                return False\n        return True"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "def prime_fib(n: int) -> int:\n    \"\"\"returns the n-th fibonacci number that is also prime.\"\"\"\n    # Your code goes here\n    pass\nHere is the working code that solves the given task:"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/39", "completion": "pass"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list) -> bool:\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list) -> bool:\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "pass"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list) -> bool:\n    seen = set()"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list) -> bool:\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list) -> bool:\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list) -> bool:\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "pass"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list\n    that sum to zero, and False otherwise.\n    \"\"\"\n    if len(l) < 3:\n        return False"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list\n    that sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "pass"}
+{"task_id": "HumanEval/40", "completion": "```python"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list\n    that sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/40", "completion": "```python"}
+{"task_id": "HumanEval/40", "completion": "```python\ndef triples_sum_to_zero(l: list):\n    \"\"\"\n    triples_sum_to_zero takes a list of integers as an input.\n    it returns True if there are three distinct elements in the list that\n    sum to zero, and False otherwise."}
+{"task_id": "HumanEval/41", "completion": "```python"}
+{"task_id": "HumanEval/41", "completion": "###"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "```python\ndef car_race_collision(n: int):\n    \"\"\"\n    Deliberate mismatch between the input and output parameters.\n    Incorrectly assumed that 'n' represents the number of cars driving left\n    to right, while 'n' in the function parameter should represent the number\n    of cars driving right to left."}
+{"task_id": "HumanEval/41", "completion": "```python\ndef car_race_collision(n: int):\n    \"\"\"\n    This function calculates the total number of collisions that will occur between \n    two sets of n cars driving in opposite directions on a straight infinitely long road.\n    \n    For each car in the left set, there are infinitely many cars in the right set which they will\n    collide with as they travel in the opposite direction. Hence, the total number of collisions \n    will be the sum of the number of cars in the left set and the infinite number of right set cars.\n    \n    The function returns the total number of collisions. It's important to note that the total \n    number of collisions is always odd."}
+{"task_id": "HumanEval/41", "completion": "```python\ndef car_race_collision(n):\n    \"\"\"\n    A car race simulation where n cars on each side move in opposite directions.\n    Their speeds are equal, and they all move in a straight line infinitely.\n    A collision happens when a car moving to the left fills a gap created by \n    a car moving to the right."}
+{"task_id": "HumanEval/41", "completion": "```python\ndef car_race_collision(n: int):\n    \"\"\"\n    The problem revolves around analyzing the traffic flow\n    on a straight, infinitely long road. There are n cars,\n    each moving left to right at a fixed speed. A separate,\n    infinite set of cars is moving right to left at the same speed.\n    Two cars will collide if they are traveling in opposite directions.\n    The goal is to compute the total number of collisions."}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "```python"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "pass"}
+{"task_id": "HumanEval/41", "completion": "```python\ndef car_race_collision(n: int):\n    \"\"\"\n    Imagine a road that's a perfectly straight infinitely long line.\n    n cars are driving left to right;  simultaneously, a different set of n cars\n    are driving right to left.   The two sets of cars start out being very far from\n    each other.  All cars move in the same speed.  Two cars are said to collide\n    when a car that's moving left to right hits a car that's moving right to left.\n    However, the cars are infinitely sturdy and strong; as a result, they continue moving\n    in their trajectory as if they did not collide."}
+{"task_id": "HumanEval/41", "completion": "def car_race_collision(n: int):\n    # Calculate the total number of cars in both directions\n    total_cars = n * 2"}
+{"task_id": "HumanEval/41", "completion": "Please provide the updated body of the Python function. The function should be able to handle the following test cases:"}
+{"task_id": "HumanEval/41", "completion": "The first line of the Python code should start with the keyword `def`, followed by the function name `car_race_collision`."}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "pass"}
+{"task_id": "HumanEval/42", "completion": "```python"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/43", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "```python"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "```python\ndef change_base(x: int, base: int):\n    \"\"\"\n    Change numerical base of input number x to base.\n    return string representation after the conversion."}
+{"task_id": "HumanEval/44", "completion": "```python\ndef change_base(x: int, base: int):\n    \"\"\"\n    Change the numerical base of a number x to base, returning a string\n    representation of the number in base. Base numbers are less than 10."}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/44", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "```python\ndef triangle_area(a, h):\n    \"\"\"Given length of a side and high return area for a triangle."}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/45", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "```python\ndef fib4(n: int) -> int:\n    \"\"\"\n    The Fib4 number sequence is"}
+{"task_id": "HumanEval/46", "completion": "```python\ndef fib4(n: int) -> int:"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "```python\ndef fib4(n: int) -> int:\n    \"\"\"\n    The Fib4 number sequence is defined as follows:\n    fib4(0) -> 0\n    fib4(1) -> 0\n    fib4(2) -> 2\n    fib4(3) -> 0\n    fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4)."}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "```python\ndef fib4(n: int) -> int:\n    \"\"\"\n    The Fib4 number sequence is a sequence similar to the Fibbonacci series that is defined\n    as F4(n) = F4(n - 1) + F4(n - 2) + F4(n - 3) + F4(n - 4) for n >= 0 and n not\n    equal to 0."}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/46", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "```python"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "```python\n..."}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "```python"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "```python\ndef median(l: list) -> float:\n    \"\"\"Return median of elements in the list l.\n    >>> median([3, 1, 2, 4, 5])\n    3\n    >>> median([-10, 4, 6, 1000, 10, 20])\n    15.0\n    \"\"\"\n    # YOUR CODE HERE\n    l.sort()\n    n = len(l)\n    if n % 2 == 0:\n        return (l[n // 2 - 1] + l[n // 2]) / 2\n    else:\n        return l[n // 2]"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "def median(l: list) -> float:\n    \"\"\"Return median of elements in the list l.\n    >>> median([3, 1, 2, 4, 5])\n    3\n    >>> median([-10, 4, 6, 1000, 10, 20])\n    15.0\n    \"\"\"\n    # Your code goes here\n    pass # Replace this line with your code\nbillboard = [3, 1, 2, 4, 5]\nprint(median(billboard))  # Output should be 3.0\n```python\ndef median(l: list) -> float:\n    \"\"\"Return median of elements in the list l.\n    >>> median([3, 1, 2, 4, 5])\n    3.0\n    >>> median([-10, 4, 6, 1000, 10, 20])\n    15.0\n    \"\"\"\n    # Sort the list and then get the middle element\n    sorted_list = sorted(l)\n    n = len(sorted_list)\n    if n % 2 == 1:\n        # Return the middle element"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/47", "completion": "std.median([3, 1, 2, 4, 5])  # returns 3\nstd.median([-10, 4, 6, 1000, 10, 20])  # returns 15.0"}
+{"task_id": "HumanEval/47", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "```python\ndef is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    # Remove all non-alphanumeric characters and convert to lowercase\n    clean_text = ''.join(c.lower() for c in text if c.isalnum())"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/48", "completion": "def is_palindrome(text: str):\n    \"\"\"\n    Checks if given string is a palindrome\n    >>> is_palindrome('')\n    True\n    >>> is_palindrome('aba')\n    True\n    >>> is_palindrome('aaaaa')\n    True\n    >>> is_palindrome('zbcd')\n    False\n    \"\"\"\n    # Your code here, replace this line\n    return text == text[::-1]"}
+{"task_id": "HumanEval/48", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "```python\ndef modp(n: int, p: int):\n    \"\"\"Return 2^n modulo p (be aware of numerics).\n    >>> modp(3, 5)\n    3\n    >>> modp(1101, 101)\n    2\n    >>> modp(0, 101)\n    1\n    >>> modp(3, 11)\n    8\n    >>> modp(100, 101)\n    1\n    \"\"\""}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "```python\ndef modp(n: int, p: int):\n    \"\"\"\n    Return 2^n modulo p (be aware of numerics)."}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/49", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef shift_encode(s: str):\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "```python\n`s = s + ' '`"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "def shift_cipher(s: str):\n    \"\"\"\n    takes the encoded string of a Caesar cipher and returns it in the\n    decrypted form. \n    \"\"\"\n    return encode_shift(s)"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/50", "completion": "```python\ndef encode_shift(s: str):\n    \"\"\"\n    returns encoded string by shifting every character by 5 in the alphabet.\n    \"\"\"\n    return \"\".join([chr(((ord(ch) + 5 - ord(\"a\")) % 26) + ord(\"a\")) for ch in s])"}
+{"task_id": "HumanEval/50", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "def remove_vowels(text):..."}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "```python"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "The solution is as follows:"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/51", "completion": "```python"}
+{"task_id": "HumanEval/51", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "```python"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "```python"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "```python"}
+{"task_id": "HumanEval/52", "completion": "```python\ndef below_threshold(l: list, t: int):\n    \"\"\"Return True if all numbers in the list l are below threshold t.\n    >>> below_threshold([1, 2, 4, 10], 100)\n    True\n    >>> below_threshold([1, 20, 4, 10], 5)\n    False\n    \"\"\"\n    def all_below(threshold):\n        return all(a <= threshold for a in l)"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/52", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "```\ndef add(x: int, y: int) -> int:"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "```python\ndef add(x: int, y: int) -> int:\n    \"\"\"\n    Add two numbers x and y"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "pass"}
+{"task_id": "HumanEval/53", "completion": "```python"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "```python\ndef same_chars(s0: str, s1: str) -> bool:\n    \"\"\"\n    Check if two words have the same characters.\n    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddeddabc')\n    True\n    >>> same_chars('abcd', 'dddddddabc')\n    True\n    >>> same_chars('dddddddabc', 'abcd')\n    True\n    >>> same_chars('eabcd', 'dddddddabc')\n    False\n    >>> same_chars('abcd', 'dddddddabce')\n    False\n    >>> same_chars('eabcdzzzz', 'dddzzzzzzzddddabc')\n    False\n    \"\"\"\n    # Your code here\n    # ...\n    return False"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "pass"}
+{"task_id": "HumanEval/54", "completion": "```python"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "```python\nimport datetime as dt"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "Output:\n \n \n \n \n \n```python\ndef fib(n: int) -> int:\n    if n == 0 or n == 1:\n        return n\n    else:\n        return fib"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/55", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\" brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "```py\ndef correct_bracketing(brackets: str):\n    \"\"\"\n    brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\" brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str):\n    stack = []"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\"\n    brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\" brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\" brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\"\n    brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/56", "completion": "pass"}
+{"task_id": "HumanEval/56", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\"\n    brackets is a string of \"<\" and \">\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "def monotonic(l: list) -> bool:\n    \"\"\"Return True is list elements are monotonically increasing or decreasing.\n    >>> monotonic([1, 2, 4, 20])\n    True\n    >>> monotonic([1, 20, 4, 10])\n    False\n    >>> monotonic([4, 1, 0, -10])\n    True\n    \"\"\"\n    # Your code here\n    pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/57", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "```python\ndef common(l1: list, l2: list) -> list:\n    \"\"\"Return sorted unique common elements for two lists.\n    >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n    [1, 5, 653]\n    >>> common([5, 3, 2, 8], [3, 2])\n    [2, 3]"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "```python\ndef common(l1: list, l2: list):\n    \"\"\"Return sorted unique common elements for two lists.\n    >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n    [1, 5, 653]\n    >>> common([5, 3, 2, 8], [3, 2])\n    [2, 3]"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "```py\nsorted(set(common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])))"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "```python\ndef common(l1: list, l2: list) -> list:\n    \"\"\"Return sorted unique common elements for two lists.\n    >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n    [1, 5, 653]\n    >>> common([5, 3, 2, 8], [3, 2])\n    [2, 3]"}
+{"task_id": "HumanEval/58", "completion": "```python\ndef common(l1: list, l2: list) -> list:\n    \"\"\"Return sorted unique common elements for two lists.\n    >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n    [1, 5, 653]\n    >>> common([5, 3, 2, 8], [3, 2])\n    [2, 3]"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "```python\ndef common(l1: list, l2: list) -> list:\n    \"\"\"Return sorted unique common elements for two lists.\n    >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n    [1, 5, 653]\n    >>> common([5, 3, 2, 8], [3, 2])\n    [2, 3]"}
+{"task_id": "HumanEval/58", "completion": "```python\ndef common(l1: list, l2: list) -> list:\n    \"\"\"Return sorted unique common elements for two lists.\n    >>> common([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])\n    [1, 5, 653]\n    >>> common([5, 3, 2, 8], [3, 2])\n    [2, 3]"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/58", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "```python"}
+{"task_id": "HumanEval/59", "completion": "def largest_prime_factor(n: int) -> int:\n    \"\"\"Return the largest prime factor of n. Assume n > 1 and is not a prime.\n    >>> largest_prime_factor(13195)\n    29\n    >>> largest_prime_factor(2048)\n    2\n    \"\"\""}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "```python"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/59", "completion": "```python"}
+{"task_id": "HumanEval/59", "completion": "```python\nif n % 2 == 0:\n    return 2"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "```python\nimport math\nimport itertools"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/59", "completion": "```python\ndef largest_prime_factor(n: int) -> int:\n    \"\"\"Return the largest prime factor of n."}
+{"task_id": "HumanEval/59", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "**Note:**\n    Do not use `return` in your solution."}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "```python"}
+{"task_id": "HumanEval/60", "completion": "```py\ndef sum_to_n(n: int) -> int:\n    \"\"\"sum_to_n is a function that sums numbers from 1 to n.\n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    >>> sum_to_n(5)\n    15\n    >>> sum_to_n(10)\n    55\n    >>> sum_to_n(1)\n    1\n    \"\"\"\n    sum = 0\n    for i in range(1, n + 1):\n        sum += i"}
+{"task_id": "HumanEval/60", "completion": "def sum_to_n(n):\n    \"\"\"sum_to_n is a function that sums numbers from 1 to n.\n    >>> sum_to_n(30)\n    465\n    >>> sum_to_n(100)\n    5050\n    >>> sum_to_n(5)\n    15\n    >>> sum_to_n(10)\n    55\n    >>> sum_to_n(1)\n    1\n    \"\"\"\n    total = 0\n    for i in range(1, n + 1):\n        total += i\n    return total"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "```python"}
+{"task_id": "HumanEval/60", "completion": "```python"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/60", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\" brackets is a string of \"(\" and \")\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/61", "completion": "```python\ndef correct_bracketing(brackets: str):\n    \"\"\"\n    brackets is a string of \"(\" and \")\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    \"\"\"\n    brackets is a string of \"(\" and \")\".\n    return True if every opening bracket has a corresponding closing bracket."}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "```python\ndef correct_bracketing(brackets: str):\n    stack = []"}
+{"task_id": "HumanEval/61", "completion": "```python\ndef correct_bracketing(brackets):\n    stack = []"}
+{"task_id": "HumanEval/61", "completion": "```python\ndef correct_bracketing(brackets: str) -> bool:\n    stack = []"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/61", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "```py\ndef derivative(xs: list):\n    \"\"\" xs represent coefficients of a polynomial.\n    xs[0] + xs[1] * x + xs[2] * x^2 + ....\n     Return derivative of this polynomial in the same form.\n    >>> derivative([3, 1, 2, 4, 5])\n    [1, 4, 12, 20]\n    >>> derivative([1, 2, 3])\n    [2, 6]\n    \"\"\"\n    def derivative_helper(xs, k):\n        if k == 0:\n            return [1]\n        else:\n            return [k * xs[k] for x in xs] + derivative_helper(xs[1:], k - 1)"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "```python\ndef derivative(xs: list):\n    \"\"\"\n    xs represent coefficients of a polynomial.\n    xs[0] + xs[1] * x + xs[2] * x^2 + ....\n    Return derivative of this polynomial in the same form.\n    >>> derivative([3, 1, 2, 4, 5])\n    [1, 4, 12, 20]\n    >>> derivative([1, 2, 3])\n    [2, 6]\n    \"\"\"\n    # Add your code here\n    return [0] * len(xs)"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "```python"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/62", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/62", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "```py\ndef fibfib(n: int):\n    \"\"\"\n    The FibFib number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:\n    fibfib(0) == 0\n    fibfib(1) == 0\n    fibfib(2) == 1\n    fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).\n    Please write a function to efficiently compute the n-th element of the fibfib number sequence."}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "```python\ndef fibfib(n: int):\n    if n <= 1:\n        return n\n    else:\n        a, b, c = 0, 0, 1\n        for _ in range(3, n + 1):\n            a, b, c = b, c, a + b + c\n        return c"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "pass"}
+{"task_id": "HumanEval/63", "completion": "```python\ndef fibfib(n: int):\n    \"\"\"\n    The FibFib number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows:\n    fibfib(0) == 0\n    fibfib(1) == 0\n    fibfib(2) == 1\n    fibfib(n) == fibfib(n-1) + fibfib(n-2) + fibfib(n-3).\n    Please write a function to efficiently compute the n-th element of the fibfib number sequence."}
+{"task_id": "HumanEval/64", "completion": "```python\ndef vowels_count(s):\n    \"\"\"\n    This function takes a string as input and returns the number of vowels in the string.\n    Vowels in this case are 'a', 'e', 'i', 'o', 'u'. Here, 'y' is also a vowel, but only when it is at the end of the given word."}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "```python"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "Your function should be working as described in the exercise."}
+{"task_id": "HumanEval/64", "completion": "```python\nfrom typing import List"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "Vowels are {'a', 'e', 'i', 'o', 'u'}.\nReturn the length of the words without vowels."}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "Replace the line with the working code."}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "```python\ndef vowels_count(s):\n    \"\"\"Write a function vowels_count which takes a string representing\n    a word as input and returns the number of vowels in the string.\n    Vowels in this case are 'a', 'e', 'i', 'o', 'u'. Here, 'y' is also a\n    vowel, but only when it is at the end of the given word."}
+{"task_id": "HumanEval/64", "completion": "pass"}
+{"task_id": "HumanEval/64", "completion": "```python\ndef vowels_count(s):\n    vowels = 'aeiou'\n    count = 0\n    for char in s:\n        if char in vowels:\n            count += 1"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "```python\ndef circular_shift(x, shift):\n    digits = str(x)\n    # if shift is greater than the number of digits, reverse the string\n    if shift > len(digits):\n        return digits[::-1]"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "```python\ndef circular_shift(x, shift):\n    # Check if shift is greater than the number of digits\n    if shift >= len(str(x)):\n        return str(x)[::-1]\n    else:\n        # Perform circular shift\n        return str(x)[shift:] + str(x)[:shift]"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "def circular_shift(x, shift):\n    shift %= len(str(x))  # Handle shift > number of digits\n    return str(x)[shift:] + str(x)[:shift]  # Handle shift < number of digits\nReturn only the body of the function in Python. Do not return anything."}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/65", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "```python\ndef digitSum(s):\n    \"\"\"\n    Task\n    Write a function that takes a string as input and returns the sum of the upper characters only'\n    ASCII codes."}
+{"task_id": "HumanEval/66", "completion": "```python\ndef digitSum(s):\n    \"\"\"\n    Task\n    Write a function that takes a string as input and returns the sum of the upper characters only\n    'ASCII codes."}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "```python\ndef digitSum(s):\n    \"\"\"Task\n    Write a function that takes a string as input and returns the sum of the upper characters only'\n    ASCII codes."}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "pass"}
+{"task_id": "HumanEval/66", "completion": "```python\ndef digitSum(s):\n    \"\"\"\n    Task\n    Write a function that takes a string as input and returns the sum of the upper characters only\n    'ASCII codes."}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/67", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    smallest_even = float('inf')\n    smallest_even_index = -1"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    even_values = [node.value for node in arr if node.value % 2 == 0]\n    smallest_even_value = min(even_values, default=None)"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    \"\"\"\n    \"Given an array representing a branch of a tree that has non-negative integer nodes\n    your task is to pluck one of the nodes and return it.\n    The plucked node should be the node with the smallest even value.\n    If multiple nodes with the same smallest even value are found return the node that has smallest index."}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    even_values = []\n    for node in arr:\n        if node % 2 == 0:\n            even_values.append(node)"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    from typing import List\n    from collections import Counter"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    \"\"\"\n    Returns the smallest even value and its index from the array of nodes in the branch.\n    If there are multiple nodes with the smallest even value, the node with the smallest index is returned.\n    \"\"\"\n    min_even_value = float('inf')\n    min_index = None"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    even_value_index = -1\n    smallest_even_value = float('inf')\n    for i, node in enumerate(arr):\n        if node % 2 == 0 and node < smallest_even_value:\n            smallest_even_value = node\n            even_value_index = i"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    \"\"\"\n    Given an array representing a branch of a tree that has non-negative integer nodes, \n    your task is to pluck one of the nodes and return it.\n    The plucked node should be the node with the smallest even value.\n    If multiple nodes with the same smallest even value are found, return the node that has the smallest index."}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    from collections import deque\n    from typing import List"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    \"\"\"\n    Given an array representing a branch of a tree that has non-negative integer nodes,\n    your task is to pluck one of the nodes and return it.\n    The plucked node should be the node with the smallest even value.\n    If multiple nodes with the same smallest even value are found, return the node\n    that has the smallest index."}
+{"task_id": "HumanEval/68", "completion": "```python\ndef pluck(arr):\n    even_arr = [node for node in arr if node % 2 == 0]"}
+{"task_id": "HumanEval/68", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "```python\ndef search(lst):\n    # Create a dictionary to count the frequency of each number\n    freq = {}\n    for num in lst:\n        if num in freq:\n            freq[num] += 1\n        else:\n            freq[num] = 1"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/69", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "pass"}
+{"task_id": "HumanEval/70", "completion": "```python\nimport heapq"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "```python\ndef triangle_area(a, b, c):\n    # Calculate the semi-perimeter of the triangle\n    s = (a + b + c) / 2"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "```python\n    # Calculate the semi-perimeter\n    s = (a + b + c) / 2"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/71", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "def will_it_fly(q, w):\n    \"\"\"Check if the object q will fly based on if the sum of its elements is less than or equal to the maximum possible weight w.\"\"\"\n    # Your code here"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "```python\ndef will_it_fly(q,w):\n    def is_palindromic(l):\n        return l == l[::-1]"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "```python\ndef will_it_fly(q, w):\n    # Get the list of elements\n    q_elements = [x for x in q]"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/72", "completion": "```python\ndef will_it_fly(q,w):\n    \"\"\"\n    Returns True if the object q will fly, and False otherwise.\n    The object q will fly if it's balanced and the sum of its elements is less than or equal to the maximum possible weight w."}
+{"task_id": "HumanEval/72", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that\n    need to be changed to make the array palindromic. A palindromic array is an array that\n    is read the same backwards and forwards. In one change, you can change one element to any other element."}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that need to be changed to make the array palindromic.\n    A palindromic array is an array that is read the same backwards and forwards. In one change, you can change one element to any other element."}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    arr.sort()  # Sort the array in ascending order\n    left = 0\n    right = len(arr) - 1\n    changes_count = 0"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    arr_count = {}\n    odd_count = 0\n    for num in arr:\n        if num in arr_count:\n            arr_count[num] += 1\n        else:\n            arr_count[num] = 1\n        if num % 2 != 0:\n            odd_count += 1"}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    visited = set()\n    change_count = 0"}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    n = len(arr)\n    min_diff = float('inf')"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that need to be changed to make the array palindromic.\n    A palindromic array is an array that is read the same backwards and forwards. In one change, you can change one element to any other element."}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that need to be changed\n    to make the array palindromic. A palindromic array is an array that is read the same backwards\n    and forwards. In one change, you can change one element to any other element."}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```py\ndef smallest_change(arr):\n    # Split the array into two halves\n    l = len(arr) // 2\n    l1 = arr[:l]\n    l2 = arr[l:]"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that need to be changed to make the array palindromic. A palindromic array is an array that is read the same backwards and forwards. In one change, you can change one element to any other element.\n    \n    For example:\n    smallest_change([1,2,3,5,4,7,9,6]) == 4\n    smallest_change([1, 2, 3, 4, 3, 2, 2]) == 1\n    smallest_change([1, 2, 3, 2, 1]) == 0\n    \"\"\"\n    # Group the array into pairs, where each pair consists of elements that are at odd and even positions.\n    pairs = [arr[i] for i in range(len(arr) // 2)] + [arr[-i - 1] for i in range(len(arr) // 2)]\n    \n    # Count the number of changes needed to make the array palindromic.\n    changes_needed = sum(1 for pair1, pair2 in zip(pairs, pairs[1::2])) + sum("}
+{"task_id": "HumanEval/73", "completion": "pass"}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that need\n    to be changed to make the array palindromic. A palindromic array is an array that\n    is read the same backwards and forwards. In one change, you can change one element\n    to any other element."}
+{"task_id": "HumanEval/73", "completion": "```python\ndef smallest_change(arr):\n    \"\"\"\n    Given an array arr of integers, find the minimum number of elements that need to be changed to make the array palindromic. A palindromic array is an array that is read the same backwards and forwards. In one change, you can change one element to any other element."}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "```python\ndef total_match(lst1, lst2):\n    count_lst1 = []\n    count_lst2 = []"}
+{"task_id": "HumanEval/74", "completion": "def total_match(lst1, lst2):\n     return list(filter(lambda x: len(x) < len(lst2), lst1)) if len(lst1) != len(lst2) else lst1"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "```python\ndef total_match(lst1, lst2):\n    # Initialize counters for chars in both lists\n    count1 = 0\n    count2 = 0"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/74", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "```python\ndef is_multiply_prime(a):\n    \"\"\"\n    This function checks whether the given number is the product of three prime numbers.\n    It returns True if the condition is met, otherwise False."}
+{"task_id": "HumanEval/75", "completion": "```python\ndef is_multiply_prime(a):\n    \"\"\"\n    Returns true if the given number is the multiplication of 3 prime numbers and false otherwise.\n    Knowing that (a) is less than 100.\n    Example:\n    is_multiply_prime(30) == True\n    30 = 2 * 3 * 5\n    \"\"\""}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "Here's the rest of the function body with the `pass` keyword removed:"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "```py\ndef is_multiply_prime(a):\n    \"\"\"\n    Returns True if the given number is the multiplication of 3 prime numbers and\n    False otherwise.\n    Knowing that (a) is less then 100."}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/75", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "```python\ndef is_simple_power(x, n):\n    \"\"\"\n    Your task is to write a function that returns true if a number x is a simple\n    power of n and false in other cases.\n    x is a simple power of n if n**int=x\n    For example:\n    is_simple_power(1, 4) => true\n    is_simple_power(2, 2) => true\n    is_simple_power(8, 2) => true\n    is_simple_power(3, 2) => false\n    is_simple_power(3, 1) => false\n    is_simple_power(5, 3) => false\n    \"\"\"\n    # Your code here"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/76", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "```python\ndef iscube(a):\n    import math"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/77", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "```python"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "def hex_key(num):\n    \"\"\"You have been tasked to write a function that receives \n    a hexadecimal number as a string and counts the number of hexadecimal \n    digits that are primes (prime number, or a prime, is a natural number \n    greater than 1 that is not a product of two smaller natural numbers).\n    Hexadecimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.\n    Prime numbers are 2, 3, 5, 7, 11, 13, 17,...\n    So you have to determine a number of the following digits: 2, 3, 5, 7, \n    B (=decimal 11), D (=decimal 13).\n    Note: you may assume the input is always correct or empty string, \n    and symbols A,B,C,D,E,F are always uppercase.\n    Examples:\n    For num = \"AB\" the output should be 1.\n    For num = \"1077E\" the output should be 2.\n    For num = \"ABED1A3"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "```python\ndef hex_key(num):\n    \"\"\"\n    You have been tasked to write a function that receives \n    a hexadecimal number as a string and counts the number of hexadecimal \n    digits that are primes (prime number, or a prime, is a natural number \n    greater than 1 that is not a product of two smaller natural numbers).\n    Hexadecimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.\n    Prime numbers are 2, 3, 5, 7, 11, 13, 17,...\n    So you have to determine a number of the following digits: 2, 3, 5, 7, \n    B (=decimal 11), D (=decimal 13).\n    Note: you may assume the input is always correct or empty string, \n    and symbols A,B,C,D,E,F are always uppercase.\n    Examples:\n    For num = \"AB\" the output should be 1.\n    For num = \"1077E\" the output should be 2.\n    For num = \"AB"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "pass"}
+{"task_id": "HumanEval/78", "completion": "```python\ndef hex_key(num):\n    \"\"\"\n    You have been tasked to write a function that receives \n    a hexadecimal number as a string and counts the number of hexadecimal \n    digits that are primes (prime number, or a prime, is a natural number \n    greater than 1 that is not a product of two smaller natural numbers).\n    Hexadecimal digits are 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.\n    Prime numbers are 2, 3, 5, 7, 11, 13, 17,...\n    So you have to determine a number of the following digits: 2, 3, 5, 7, \n    B (=decimal 11), D (=decimal 13).\n    Note: you may assume the input is always correct or empty string, \n    and symbols A,B,C,D,E,F are always uppercase.\n    Examples:\n    For num = \"AB\" the output should be 1.\n    For num = \"1077E\" the output should be 2.\n    For num = \"AB"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "```python\ndef decimal_to_binary(decimal):\n    \"\"\"\n    Converts a number in decimal form to binary format. The function returns a string,\n    with each character representing a binary number. Each character in the string will be '0' or '1'."}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "```python\ndef decimal_to_binary(decimal):\n    \"\"\"Converts a number from decimal to binary."}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/79", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "```python\ndef is_happy(s):\n    \"\"\"\n    Checks if the given string s (length at least 3) is a happy string or not by\n    ensuring every 3 consecutive characters are unique."}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "Here is the function body after making the line that contains only the word `pass` empty, which should solve the given problem:"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "```python\ndef is_happy(s):\n    \"\"\"\n    This function takes a string as input and checks if it is a happy string.\n    A happy string is defined as a string of length 3 or more where every 3 consecutive letters are distinct.\n    \"\"\"\n    # Initialize a list to keep track of character positions\n    char_positions = [0] * 26"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "pass"}
+{"task_id": "HumanEval/80", "completion": "```python\ndef is_happy(s):\n    def is_distinct_last(iterable):\n        seen = set()\n        for item in iterable:\n            if item in seen:\n                return False\n            seen.add(item)\n        return True"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    letter_grades = []\n    for grade in grades:\n        if grade >= 4.0:\n            letter_grades.append('A+')\n        elif grade > 3.7:\n            letter_grades.append('A')\n        elif grade > 3.3:\n            letter_grades.append('A-')\n        elif grade > 3.0:\n            letter_grades.append('B+')\n        elif grade >= 2.7:\n            letter_grades.append('B')\n        elif grade >= 2.3:\n            letter_grades.append('B-')\n        elif grade >= 2.0:\n            letter_grades.append('C+')\n        elif grade >= 1.7:\n            letter_grades.append('C')\n        elif grade >= 1.3:\n            letter_grades.append('C-')\n        elif grade >= 1.0:\n            letter_grades.append('D+')\n        elif grade >= 0.7:\n            letter_grades.append('D')\n        elif grade >= 0.0:\n            letter_grades.append('D-')\n    return letter_grades"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    \"\"\"\n    It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write\n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E\n    \n    Example:\n    grade_equation([4.0, 3, 1.7, 2, 3.5]) ==> ['A+', 'B',"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    letter_grades = []  # Initialize an empty list to store letter grades\n    for gpa in grades:  # Loop through each GPA in the grades list\n        if gpa >= 4.0:  # Check if GPA is greater than or equal to 4.0\n            letter_grades.append('A+')  # If Yes, append 'A+'\n        elif gpa > 3.7:  # Otherwise, append 'A'\n            letter_grades.append('A')  # If Yes, append 'A'\n        elif gpa > 3.3:  # Else, append 'A-'\n            letter_grades.append('A-')\n        elif gpa > 3.0:  # Otherwise, append 'B+'\n            letter_grades.append('B+')\n        elif gpa > 2.7:  # Else, append 'B'\n            letter_grades.append('B')\n        elif gpa > 2.3:  # Otherwise, append 'B-'\n            letter_grades.append('B-')\n        elif gpa > 2.0:  # Else, append 'C+'\n            letter"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    \"\"\"\n    It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    \"\"\"It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E\n   \n    Example:\n    grade_equation([4.0, 3, 1.7, 2, 3.5]) ==> ['A+', 'B', '"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    \"\"\"\n    It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "```python"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    \"\"\"\n    It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E"}
+{"task_id": "HumanEval/81", "completion": "pass"}
+{"task_id": "HumanEval/81", "completion": "```python\ndef numerical_letter_grade(grades):\n    \"\"\"It is the last week of the semester and the teacher has to give the grades\n    to students. The teacher has been making her own algorithm for grading.\n    The only problem is, she has lost the code she used for grading.\n    She has given you a list of GPAs for some students and you have to write \n    a function that can output a list of letter grades using the following table:\n             GPA       |    Letter grade\n              4.0                A+\n            > 3.7                A \n            > 3.3                A- \n            > 3.0                B+\n            > 2.7                B \n            > 2.3                B-\n            > 2.0                C+\n            > 1.7                C\n            > 1.3                C-\n            > 1.0                D+ \n            > 0.7                D \n            > 0.0                D-\n              0.0                E"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "from typing import List"}
+{"task_id": "HumanEval/82", "completion": "def prime_length(string):\n    \"\"\"Write a function that takes a string and returns True if the string\n    length is a prime number or False otherwise\n    Examples\n    >>> prime_length('Hello') is True\n    True\n    >>> prime_length('abcdcba') is True\n    True\n    >>> prime_length('kittens') is True\n    True\n    >>> prime_length('orange') is False\n    True\n    >>> prime_length('2468') is False\n    True\n    \"\"\"\n    # Your code here\n    pass\n# Do not remove the return statement, it's there to complete the task. Finish only the code output."}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "```python\ndef prime_length(string):\n    \"\"\"\n    a function that takes a string and returns True if the string length\n    is a prime number or False otherwise\n    Examples\n    prime_length('Hello') == True\n    prime_length('abcdcba') == True\n    prime_length('kittens') == True\n    prime_length('orange') == False\n    \"\"\"\n    string = str(string.lower().replace(\" \", \"\"))\n    prime_numbers = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]\n    string_length = len(string)"}
+{"task_id": "HumanEval/82", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "```python\ndef prime_length(string):\n    \"\"\"\n    >>> prime_length('Hello') == True\n    True\n    >>> prime_length('abcdcba') == True\n    True\n    >>> prime_length('kittens') == True\n    True\n    >>> prime_length('orange') == False\n    False\n    \"\"\"\n    length = len(string)\n    if length < 2:\n        return False"}
+{"task_id": "HumanEval/82", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "```python\ndef prime_length(string):\n    if len(string) == 1:\n        return False\n    if len(string) == 2:\n        return True\n    for x in range(len(string) - 1):\n        if int(string[x]) in range(2, int(string[x]) + 1):\n            continue\n        break\n    return prime_length(string[:x]) and prime_length(string[x:])"}
+{"task_id": "HumanEval/82", "completion": "pass"}
+{"task_id": "HumanEval/82", "completion": "```python\ndef prime_length(string):\n    def is_prime(num):\n        if num < 2:\n            return False\n        for i in range(2, int(num**0.5) + 1):\n            if num % i == 0:\n                return False\n        return True"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "```python\ndef starts_one_ends(n):\n    # Initialize a count variable to zero\n    count = 0"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "```python\ndef starts_one_ends(n):\n    \"\"\"\n    Given a positive integer n, return the count of the numbers of n-digit\n    positive integers that start or end with 1.\n    \"\"\"\n    # Base case: if n is 1, return 1 count\n    if n == 1:\n        return 1"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "```python\ndef starts_one_ends(n):\n    \"\"\"\n    Given a positive integer n, return the count of the numbers of n-digit\n    positive integers that start or end with 1.\n    \"\"\"\n    if n == 1:\n        return 1\n    else:\n        return n + starts_one_ends(n - 1)"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/83", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "```python\ndef solve(N):\n    \"\"\"\n    Given a positive integer N, return the total sum of its digits in binary."}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "```python\nimport math"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/84", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "```python\ndef add(lst):\n    \"\"\"\n    Given a non-empty list of integers lst, add the even elements that are at odd indices."}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/85", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "```python\ndef anti_shuffle(s):\n    \"\"\"\n    Takes a string and returns the ordered version of the string.\n    Ordered version is a string where all words are replaced by a new word\n    where all characters in the word are arranged in ascending order."}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "```python\ndef anti_shuffle(s):\n    \"\"\"\n    Write a function that takes a string and returns an ordered version of it.\n    Ordered version of string, is a string where all words (separated by space)\n    are replaced by a new word where all the characters arranged in\n    ascending order based on ascii value.\n    Note: You should keep the order of words and blank spaces in the sentence."}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "The code to implement the function anti_shuffle is as follows:"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/86", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "```python\ndef get_row(lst, x):\n    \"\"\"\n    You are given a 2 dimensional data, as a nested lists,\n    which is similar to matrix, however, unlike matrices,\n    each row may contain a different number of columns.\n    Given lst, and integer x, find integers x in the list,\n    and return list of tuples, [(x1, y1), (x2, y2) ...] such that\n    each tuple is a coordinate - (row, columns), starting with 0.\n    Sort coordinates initially by rows in ascending order.\n    Also, sort coordinates of the row by columns in descending order.\n    \n    Examples:\n    get_row([\n      [1,2,3,4,5,6],\n      [1,2,3,4,1,6],\n      [1,2,3,4,5,1]\n    ], 1) == [(0, 0), (1, 4), (1, 0), (2, 5), (2, 0)]\n    get_row([], 1) == []\n    get_row([[], [1], [1, 2, 3]], 3) == [(2, 2)]\n    \"\"\""}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "```python\ndef get_row(lst, x):\n    \"\"\"\n    You are given a 2 dimensional data, as a nested lists,\n    which is similar to matrix, however, unlike matrices,\n    each row may contain a different number of columns.\n    Given lst, and integer x, find integers x in the list,\n    and return list of tuples, [(x1, y1), (x2, y2) ...] such that\n    each tuple is a coordinate - (row, columns), starting with 0.\n    Sort coordinates initially by rows in ascending order.\n    Also, sort coordinates of the row by columns in descending order.\n    \n    Examples:\n    get_row([\n      [1,2,3,4,5,6],\n      [1,2,3,4,1,6],\n      [1,2,3,4,5,1]\n    ], 1) == [(0, 0), (1, 4), (1, 0), (2, 5), (2, 0)]\n    get_row([], 1) == []\n    get_row([[], [1], [1, 2, 3]], 3) == [(2, 2)]\n    \"\"\""}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/87", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "```python\ndef sort_array(array):\n    \"\"\"\n    Given an array of non-negative integers, return a copy of the given array after sorting.\n    You will sort the given array in ascending order if the sum( first index value, last index value) is odd,\n    or sort it in descending order if the sum( first index value, last index value) is even."}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "```python\ndef sort_array(array):\n    \"\"\"\n    Given an array of non-negative integers, return a copy of the given array after sorting,\n    you will sort the given array in ascending order if the sum( first index value, last index value) is odd,\n    or sort it in descending order if the sum( first index value, last index value) is even."}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "pass"}
+{"task_id": "HumanEval/88", "completion": "def sort_array(array):\n    \"\"\"\n    Given an array of non-negative integers, return a copy of the given array after sorting,\n    you will sort the given array in ascending order if the sum( first index value, last index value) is odd,\n    or sort it in descending order if the sum( first index value, last index value) is even."}
+{"task_id": "HumanEval/88", "completion": "```python\ndef sort_array(array):\n    \"\"\"\n    Given an array of non-negative integers, return a copy of the given array after sorting,\n    you will sort the given array in ascending order if the sum( first index value, last index value) is odd,\n    or sort it in descending order if the sum( first index value, last index value) is even."}
+{"task_id": "HumanEval/88", "completion": "```python\ndef sort_array(array):\n    \"\"\"\n    Given an array of non-negative integers, return a copy of the given array after sorting,\n    you will sort the given array in ascending order if the sum( first index value, last index value) is odd,\n    or sort it in descending order if the sum( first index value, last index value) is even."}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "```python\nimport string\nimport random"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/89", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "```python\ndef next_smallest(lst):\n    if len(lst) < 2:\n        return None"}
+{"task_id": "HumanEval/90", "completion": "```python\ndef next_smallest(lst):\n    if len(lst) == 0:\n        return None"}
+{"task_id": "HumanEval/90", "completion": "```python\ndef next_smallest(lst):\n    if len(lst) < 2:\n        return None"}
+{"task_id": "HumanEval/90", "completion": "```python\ndef next_smallest(lst):\n    if not lst:\n        return None"}
+{"task_id": "HumanEval/90", "completion": "```python\ndef next_smallest(lst):\n    if len(lst) < 2:\n        return None"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/90", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "```python\ndef is_bored(S):\n    \"\"\"\n    Returns the number of boredoms in the given string S."}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "```python\ndef is_bored(S):\n    \"\"\"\n    >>> is_bored(\"Hello world\")\n    0\n    >>> is_bored(\"The sky is blue. The sun is shining. I love this weather\")\n    1\n    \"\"\"\n    boring_words = S.split('.')\n    return sum(1 for word in boring_words if word == 'I')"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/91", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "def any_int(x, y, z):\n    \"\"\"\n    Determine if any of the three provided integers equals the sum of the other two.\n    Returns True if the condition is met and all integers are integers.\n    Returns False otherwise.\n    \"\"\"\n    return (x == y + z) or (y == z + x) or (z == x + y) or \\\n           (x == y - z) or (y == z - x) or (z == x - y) or \\\n           (x == y * z) or (y == z * x) or (z == x * y)"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "```python\ndef any_int(x, y, z):\n    \"\"\"\n    Create a function that takes 3 numbers.\n    Returns true if one of the numbers is equal to the sum of the other two, and all numbers are integers.\n    Returns false in any other cases.\n    \n    Examples\n    any_int(5, 2, 7) \u279e True\n    \n    any_int(3, 2, 2) \u279e False"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/92", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "```python\ndef encode(message):\n    \"\"\"\n    Encode a message by swapping the case of all letters and replacing\n    all vowels with the letter that appears 2 places ahead of that vowel\n    in the English alphabet."}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "```python\ndef encode(message):\n    encoded_message = ''"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "def encode(message):\n    \"\"\"\n    Write a function that takes a message, and encodes in such a \n    way that it swaps case of all letters, replaces all vowels in \n    the message with the letter that appears 2 places ahead of that \n    vowel in the english alphabet. \n    Assume only letters. \n    \n    Examples:\n    >>> encode('test')\n    'TGST'\n    >>> encode('This is a message')\n    'tHKS KS C MGSSCGG'\n    \"\"\"\n    # Your code starts here\n    return message.translate(str.maketrans(\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\", \"zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA\".translate(str.maketrans(\"aAeEiIoOuUuIsIsSsOoOo\", \"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ\".translate(str.maketrans(\"aeiouAEIOU\", \"0123456789\".translate(str.maketrans(\"aAeEiIoOuUuIsIsSsOoOo\", \"012345678"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "{content_of_function}"}
+{"task_id": "HumanEval/93", "completion": "pass"}
+{"task_id": "HumanEval/93", "completion": "def encode(message):\n    # First, we need to convert the message to lowercase to ensure case\n    # is preserved. Then, we'll replace all vowels with their\n    # 2nd-to-last letter in the alphabet.\n    # Finally, we'll swap the case of all letters in the message.\n    return message.swapcase() + message.replace(\"a\", \"b\").replace(\"e\", \"f\").replace(\"i\", \"j\").replace(\"o\", \"p\").replace(\"u\", \"q\").swapcase()"}
+{"task_id": "HumanEval/94", "completion": "From the function header, the implementation starts with `def skjkasdkd(lst):` and ends with `pass`. We need to replace this line with our own code. We can use the `sum` function to calculate the sum of digits of the largest prime number in the list. Here's the implementation:"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "```python"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "```python\ndef find_largest_prime(lst):\n    \"\"\"\n    Finds the largest prime value in the given list and returns the sum of its digits.\n    \"\"\"\n    # Your code here"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "```python\ndef skjkasdkd(lst):\n    largest_prime = None\n    total_sum = 0\n    for num in lst:\n        if is_prime(num):\n            if largest_prime is None or num > largest_prime:\n                largest_prime = num\n            total_sum += abs(int(num))\n    return total_sum"}
+{"task_id": "HumanEval/94", "completion": "```python\ndef largest_prime_sum(lst):\n    \"\"\"\n    Finds the largest prime value in a list and returns the sum of its digits.\n    Examples:\n    For lst = [0,3,2,1,3,5,7,4,5,5,5,2,181,32,4,32,3,2,32,324,4,3], the output should be 10\n    For lst = [1,0,1,8,2,4597,2,1,3,40,1,2,1,2,4,2,5,1], the output should be 25\n    For lst = [1,3,1,32,5107,34,83278,109,163,23,2323,32,30,1,9,3], the output should be 13\n    For lst = [0,724,32,71,99,32,6,0,5,91,83,0,5,6], the output should"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "```python\ndef skjkasdkd(lst):\n    from math import sqrt\n    from functools import reduce\n    from operator import add"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/94", "completion": "```python\ndef skjkasdkd(lst):\n    def is_prime(n):\n        if n <= 1:\n            return False\n        for i in range(2, int(n**0.5) + 1):\n            if n % i == 0:\n                return False\n        return True"}
+{"task_id": "HumanEval/94", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "```python\ndef check_dict_case(dict):\n    if not dict:\n        return False"}
+{"task_id": "HumanEval/95", "completion": "```python\ndef check_dict_case(dict):\n    \"\"\"\n    Given a dictionary, return True if all keys are strings in lower \n    case or all keys are strings in upper case, else return False.\n    The function should return False is the given dictionary is empty.\n    Examples:\n    check_dict_case({\"a\":\"apple\", \"b\":\"banana\"}) should return True.\n    check_dict_case({\"a\":\"apple\", \"A\":\"banana\", \"B\":\"banana\"}) should return False.\n    check_dict_case({\"a\":\"apple\", 8:\"banana\", \"a\":\"apple\"}) should return False.\n    check_dict_case({\"Name\":\"John\", \"Age\":\"36\", \"City\":\"Houston\"}) should return False.\n    check_dict_case({\"STATE\":\"NC\", \"ZIP\":\"12345\" }) should return True.\n    \"\"\"\n    keys = dict.keys()\n    lower_keys = [key.lower() for key in keys if isinstance(key, str)]\n    upper_keys = [key.upper() for key in keys if isinstance(key, str)]"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "```python\ndef check_dict_case(dict):\n    \"\"\"\n    Given a dictionary, return True if all keys are strings in lower \n    case or all keys are strings in upper case, else return False.\n    The function should return False is the given dictionary is empty.\n    Examples:\n    check_dict_case({\"a\":\"apple\", \"b\":\"banana\"}) should return True.\n    check_dict_case({\"a\":\"apple\", \"A\":\"banana\", \"B\":\"banana\"}) should return False.\n    check_dict_case({\"a\":\"apple\", 8:\"banana\", \"a\":\"apple\"}) should return False.\n    check_dict_case({\"Name\":\"John\", \"Age\":\"36\", \"City\":\"Houston\"}) should return False.\n    check_dict_case({\"STATE\":\"NC\", \"ZIP\":\"12345\" }) should return True.\n    \"\"\"\n    if not dict:\n        return False"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "```python\ndef check_dict_case(dict):\n    \"\"\"\n    Given a dictionary, return True if all keys are strings in lower \n    case or all keys are strings in upper case, else return False.\n    The function should return False is the given dictionary is empty.\n    Examples:\n    check_dict_case({\"a\":\"apple\", \"b\":\"banana\"}) should return True.\n    check_dict_case({\"a\":\"apple\","}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/95", "completion": "```python\ndef check_dict_case(dict):\n    if not dict:\n        return False"}
+{"task_id": "HumanEval/95", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "def count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_up_to(5) => [2,3]\n    count_up_to(11) => [2,3,5,7]\n    count_up_to(0) => []\n    count_up_to(20) => [2,3,5,7,11,13,17,19]\n    count_up_to(1) => []\n    count_up_to(18) => [2,3,5,7,11,13,17]\n    \"\"\"\n    # Your code goes here... # BEGIN\n    pass\n    # Your code goes here... # END\n    return PRIMES[:n] + count_up_to(n - 1)  # Return the result array"}
+{"task_id": "HumanEval/96", "completion": "def count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first\n       n prime numbers less than n.\n    \"\"\"\n    # Your code here\n    pass\n    # Return the result array. For example, for n = 5, the function should return [2,3] as 2 and\n    # 3 are the first two primes less than 5."}
+{"task_id": "HumanEval/96", "completion": "```python\ndef count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_up_to(5) => [2,3]\n    count_up_to(11) => [2,3,5,7]\n    count_up_to(0) => []\n    count_up_to(20) => [2,3,5,7,11,13,17,19]\n    count_up_to(1) => []\n    count_up_to(18) => [2,3,5,7,11,13,17]\n    \"\"\""}
+{"task_id": "HumanEval/96", "completion": "```python\ndef count_up_to(n):\n    primes = [2]\n    for i in range(3, n, 2):\n        is_prime = True\n        for j in range(2, int(i ** 0.5) + 1):\n            if i % j == 0:\n                is_prime = False\n                break\n        if is_prime:\n            primes.append(i)\n    return primes"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "def count_up_to(n):\n    \"\"\"Returns an array of the first n prime numbers less than n.\n    \"\"\"\n    primes = []\n    num = 2\n    while len(primes) < n:\n        is_prime = True\n        for i in range(2, int(num**0.5)+1):\n            if num % i == 0:\n                is_prime = False\n                break\n        if is_prime:\n            primes.append(num)\n        num += 1\n    return primes"}
+{"task_id": "HumanEval/96", "completion": "Here is a working solution:"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "```python\ndef count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_up_to(5) => [2,3]\n    count_up_to(11) => [2,3,5,7]\n    count_up_to(0) => []\n    count_up_to(20) => [2,3,5,7,11,13,17,19]\n    count_up_to(1) => []\n    count_up_to(18) => [2,3,5,7,11,13,17]\n    \"\"\""}
+{"task_id": "HumanEval/96", "completion": "```python\ndef count_up_to(n):\n    \"\"\"\n    Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_up_to(5) => [2,3]\n    count_up_to(11) => [2,3,5,7]\n    count_up_to(0) => []\n    count_up_to(20) => [2,3,5,7,11,13,17,19]\n    count_up_to(1) => []\n    count_up_to(18) => [2,3,5,7,11,13,17]\n    \"\"\"\n    prime_numbers = []\n    num = 2\n    while len(prime_numbers) < n:\n        if is_prime(num):\n            prime_numbers.append(num)\n        num += 1\n    return prime_numbers"}
+{"task_id": "HumanEval/96", "completion": "```python\ndef count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_up_to(5) => [2,3]\n    count_up_to(11) => [2,3,5,7]\n    count_up_to(0) => []\n    count_up_to(20) => [2,3,5,7,11,13,17,19]\n    count_up_to(1) => []\n    count_up_to(18) => [2,3,5,7,11,13,17]\n    \"\"\"\n    primes = [2, 3]  # Initialize the list with the first two prime numbers\n    found = 2  # Initialize the number of primes found\n    num = 4  # Set the current number of primes to 2 (the first prime number)"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/96", "completion": "def count_up_to(n):\n    \"\"\"Implement a function that takes an non-negative integer and returns an array of the first n\n    integers that are prime numbers and less than n.\n    for example:\n    count_up_to(5) => [2,3]\n    count_up_to(11) => [2,3,5,7]\n    count_up_to(0) => []\n    count_up_to(20) => [2,3,5,7,11,13,17,19]\n    count_up_to(1) => []\n    count_up_to(18) => [2,3,5,7,11,13,17]\n    \"\"\"\n    primes = []\n    for num in range(2, n):\n        if is_prime(num):\n            primes.append(num)\n    return primes"}
+{"task_id": "HumanEval/96", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "Answer only the body of the function, not the docstring,\netc. Extra attributes like `@author \"John Dore\"`, etc. should be ignored."}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/97", "completion": "```python\ndef multiply(a, b):\n    # Complete the function here\n    # Find the unit digits of a and b\n    unit1 = abs(a) % 10\n    unit2 = abs(b) % 10"}
+{"task_id": "HumanEval/97", "completion": "This function takes two integers and returns the product of their unit digits. Assume input is always valid. Examples: multiply(148, 412) should return 16. multiply(19, 28) should return 72. multiply(2020, 1851) should return 0. multiply(14,-15) should return 20. >>> multiply(148, 412) 16 >>> multiply(19, 28) 72 >>> multiply(2020, 1851) 0 >>> multiply(14, -15) 20\nHere is the working Python code that solves the task:"}
+{"task_id": "HumanEval/97", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "```python\ndef count_upper(s):\n    upper_count = 0"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
+{"task_id": "HumanEval/98", "completion": "pass"}
