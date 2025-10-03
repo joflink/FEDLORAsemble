@@ -170,16 +170,17 @@ python run_eval.py --config evals.yaml
 ---
 
 ## 🎯 Experts & Domains
+All loras are build on qwen 2.5
 
-| ID | Domain        | Model                                | Specialty                     |
+| ID | Domain        | Lora                                | Specialty                     |
 |----|---------------|--------------------------------------|-------------------------------|
-| 0  | Reasoning     | DeepSeek-R1-Distill                  | Logical analysis              |
-| 1  | General       | Qwen2.5-0.5B-Instruct                | Conversation, QA              |
-| 2  | Math          | Qwen2.5-0.5B-Math                    | Problem solving               |
-| 3  | Coding        | Qwen2.5-0.5B-Instruct          | Code gen, debugging           |
-| 4  | Web Search    | Qwen2.5 + DuckDuckGo API             | Real-time info                |
+| 0  | Reasoning     | reasoning                | Logical analysis              |
+| 1  | General       | general                | Conversation, QA              |
+| 2  | Math          | math                   | Problem solving               |
+| 3  | Coding        | code          | Code gen, debugging           |
+| 4  | Web Search    | general + DuckDuckGo API             | Real-time info                |
 
-LoRA adapters live under `evaluation/lora/<size>/<domain>/`.
+LoRA adapters live under `lora/<size>/<domain>/`.
 
 ---
 

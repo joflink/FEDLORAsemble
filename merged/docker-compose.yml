@@ -1,8 +1,7 @@
-version: "3.8"
-
 services:
   tgi:
-    image: ghcr.io/huggingface/text-generation-inference:latest
+    image: ghcr.io/huggingface/text-generation-inference:latest # kör en äldre version om du vill köra med äldre nvidia drivers
+    # image: ghcr.io/huggingface/text-generation-inference:v2.1.1  # ← Tex denna
     container_name: fedlora
     ports:
       - "8080:80"
