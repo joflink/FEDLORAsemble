@@ -1,7 +1,0 @@
-# registry.yml
-
-completion_fns:
-  tgi_router: my_evals.tgi_wrapper:TGICompletion
-
-metrics:
-  my_exact: my_evals.my_exact:MathExactMatch

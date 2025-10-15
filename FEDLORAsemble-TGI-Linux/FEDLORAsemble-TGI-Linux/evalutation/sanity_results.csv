@@ -1,9 +1,0 @@
-domain,prompt,latency_ms,expert_id
-reasoning,A farmer has chickens and cows. There are 30 heads and 100 legs. How many of each animal does he have?,22914.598866016604,1
-reasoning,"If it takes 3 painters 3 days to paint 3 fences, how many fences can 9 painters paint in 9 days?",21907.388261985034,2
-general,Vad heter huvudstaden i Kroatien?,21998.246672999812,1
-general,Explain the difference between HTTP/1.1 and HTTP/2 in two bullet points.,6605.946191994008,3
-math,<domain:math> Integrate x^3 * sin(x) dx step‑by‑step.,22016.869385988684,2
-math,<domain:math> Solve the equation 2x^2 ‑ 5x + 3 = 0.,22280.038135999348,2
-code,<domain:code> Write a Python function that returns the nth Fibonacci number using memoisation.,22265.484767995076,3
-code,<domain:code> Create a Svelte component that displays the current date and updates every minute.,21898.033505975036,3
