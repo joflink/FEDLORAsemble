@@ -98,7 +98,7 @@ print("hello")
 import flwr as fl
 context = {
         "model": {
-            "name": "../models/Qwen2.5-0.5B-Instruct",
+    "name": "../models/Qwen2.5-0.5B-Instruct",
             "quantization": 4,
             "gradient-checkpointing": True,
             "lora": {
@@ -131,7 +131,7 @@ context = {
             "fraction-evaluate": 0.0
         },
         "num-server-rounds": 400,
-        "dataset": "../datasets/alpaca-gpt4"  
+        "dataset": "../datasets/indian/data"  
 }
 
 

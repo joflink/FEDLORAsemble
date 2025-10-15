@@ -3,7 +3,7 @@ import os
 import argparse
 import torch
 from datetime import datetime
-import toml  # If using Python <3.11, install and use `import toml`
+# import toml  # If using Python <3.11, install and use `import toml`
 from omegaconf import OmegaConf
 from collections import OrderedDict
 from typing import Dict, Tuple, List
@@ -26,7 +26,7 @@ from dataset import (
 
 # Exempel: fyra olika model_cfg, en per vardag (mån–tors):
 MODEL_CFG_MON = {
-    "name": "../models/DeepSeek-R1-Distill-Qwen1.5B",
+    "name": "../models/Qwen2.5-0.5B-Instruct",
     "quantization": 4,
     "gradient-checkpointing": True,
 "lora": {
@@ -53,7 +53,7 @@ MODEL_CFG_TUE = {
 
 }
 MODEL_CFG_WED = {
-        "name": "../models/Qwen2.5-0.5B-Instruct-Math",
+    "name": "../models/Qwen2.5-0.5B-Instruct",
         "quantization": 4,
         "gradient-checkpointing": True,
     "lora": {
@@ -82,7 +82,8 @@ MODEL_CFG_THU = {
 }
 
 def select_model_and_dataset():
-    day_of_week = datetime.now().weekday()  # 0=mån,1=tis,2=ons,3=tor,4=fre,5=lör,6=sön
+    # day_of_week = datetime.now().weekday()  # 0=mån,1=tis,2=ons,3=tor,4=fre,5=lör,6=sön
+    day_of_week = 24  # 0=mån,1=tis,2=ons,3=tor,4=fre,5=lör,6=sön
     if day_of_week == 10:
         # Måndag => Expert 0
         return {
@@ -111,12 +112,12 @@ def select_model_and_dataset():
         # Fredag-lör-sön => default
         return {
             "model_cfg": MODEL_CFG_MON,
-            "dataset_path": "../datasets/alpaca-gpt4",
+        "dataset_path": "../datasets/indian/data"  
         }
 
 context = {
         "model": {
-            "name": "../models/Qwen2.5-7B-Instruct",
+             "name": "../models/Qwen2.5-0.5B-Instruct",
             "quantization": 4,
             "gradient-checkpointing": True,
             "lora": {
@@ -153,17 +154,17 @@ context = {
             "fraction-evaluate": 0.0
         },
         "num-server-rounds": 400,
-        "dataset": "../datasets/reasoning"  
+        "dataset": "../datasets/indian/data"  
 }
 
-def load_flower_config():
-    """Ladda konfigurering från pyproject.toml."""
-    with open("./pyproject.toml", "r") as f:
-        pyproject = toml.load(f)
-    static = pyproject["tool"]["flwr"]["app"]["config"]["static"]
-    config = pyproject["tool"]["flwr"]["app"]["config"]
-    # Mixa ihop config från pyproject och ersätt nycklar
-    return OmegaConf.create(replace_keys({**config, "static": static}))
+# def load_flower_config():
+#     """Ladda konfigurering från pyproject.toml."""
+#     with open("./pyproject.toml", "r") as f:
+#         pyproject = toml.load(f)
+#     static = pyproject["tool"]["flwr"]["app"]["config"]["static"]
+#     config = pyproject["tool"]["flwr"]["app"]["config"]
+#     # Mixa ihop config från pyproject och ersätt nycklar
+#     return OmegaConf.create(replace_keys({**config, "static": static}))
 
 
 
@@ -202,7 +203,7 @@ class FlowerClient(NumPyClient):
                         #selection = select_model_and_dataset()
             selection = {
             "model_cfg": MODEL_CFG_THU,
-            "dataset_path": "../datasets/indian",
+            "dataset_path": "../datasets/indian/data" 
         }
             context["model"] = selection["model_cfg"]
             cfg = DictConfig(replace_keys(unflatten_dict(context)))

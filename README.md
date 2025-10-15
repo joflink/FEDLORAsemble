@@ -2,6 +2,19 @@
 
 A modular, production-ready system combining **federated learning**, **LoRA fine-tuning**, and a **TGI-powered Mixture of Experts (MoE)** architecture for efficient, domain-specialized inference.
 
+
+Quick way to start testing:
+Test
+Install dockerfile and requirments (libraries)
+
+py .\Berttest.py to test a Bertrouter model
+
+
+py .\start_tgi_moe.py to test the tgi system, (for this the docker need to be up and running)
+
+
+
+
 ---
 
 ## 🌟 Key Features
@@ -38,8 +51,11 @@ A modular, production-ready system combining **federated learning**, **LoRA fine
 merged/
 ├── 📄 README.md                    # This file
 ├── ⚙️ pyproject.toml              # Dependencies & Flower config
-├── 🧠 moe_system.py               # TGI-based MoE orchestrator
 ├── 📊 evaluation_main.py          # Main evaluation entrypoint
+├── docker-compose.yml         # TGI deployment config
+├── start_tgi_moe        # Starting the system
+├── Berttest        # Testing the Bertrouter
+├── Berttrainer        # Berttrainer
 │
 ├── 🎯 training/                   # Federated training logic
 │   ├── server_app.py              # Flower server
@@ -54,7 +70,6 @@ merged/
 │   ├── run_eval.py                # Benchmark runner
 │   ├── eval_utils.py              # Utilities
 │   ├── tgi_router_client.py       # TGI client for MoE
-│   ├── docker-compose.yml         # TGI deployment config
 │   ├── evals.yaml                 # Evaluation settings
 │   ├── 🤖 bert-router/            # Trained router checkpoints
 │   ├── 🎯 lora/                   # Domain-specific LoRA adapters
@@ -94,6 +109,13 @@ git lfs clone https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct models/qwens/Qwe
 
 > ⚠️ **Requirement**: Use `transformers >= 4.37.0` to avoid `KeyError: 'qwen2'`.
 
+If you use the latest image(docker-compose.yml file) you cant use bitsandbytes for quantization
+ image: ghcr.io/huggingface/text-generation-inference:latest 
+    # image: ghcr.io/huggingface/text-generation-inference:v2.1.1  # ← Tex denna
+ 
+ then this (if older verison then this work): 
+      #QUANTIZE: bitsandbytes
+      #LOAD_IN_8BIT: "true"
 ### 3. Launch TGI Server
 ```bash
 docker-compose up -d
@@ -102,7 +124,7 @@ curl http://localhost:8080/health  # verify
 
 ### 4. Run MoE System
 ```bash
-python moe_system.py  # auto-connects to TGI at localhost:8080
+py .\start_tgi_moe.py
 ```
 
 ### 5. Start Federated Training
