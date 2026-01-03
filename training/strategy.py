@@ -39,8 +39,6 @@ time_logger = setup_logger("time_logger", "training_time.log")
 comm_logger = setup_logger("comm_logger", "communication_cost.log")
 loss_logger = setup_logger("loss_logger", "learning_loss.log")
 
-import logging
-
 class StreamToLogger:
     """Redirects stdout/stderr to a logger."""
     def __init__(self, logger, level):

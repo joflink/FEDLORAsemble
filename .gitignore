@@ -162,6 +162,7 @@ training/checkpoints/
 training/logs/
 training/output/
 training/__pycache__/
+test_results
 
 # Evalueringsresultat
 evaluation/results/
@@ -183,6 +184,7 @@ log.txt
 *.tmp
 *.temp
 .cache/
+idk
 
 # Dataset-filer (kan vara stora)
 datasets/*/data/*.parquet
